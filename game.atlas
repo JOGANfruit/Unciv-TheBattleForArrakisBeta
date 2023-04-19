@@ -1,0 +1,1287 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Barracks
+  rotate: false
+  xy: 4, 499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bazaar
+  rotate: false
+  xy: 712, 1807
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Outpost
+  rotate: false
+  xy: 820, 1483
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Refinery
+  rotate: false
+  xy: 220, 175
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Spice Silos
+  rotate: false
+  xy: 4, 1315
+  size: 700, 700
+  orig: 700, 700
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Spice Silos (Impr)
+  rotate: false
+  xy: 4, 1315
+  size: 700, 700
+  orig: 700, 700
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wind Trap
+  rotate: false
+  xy: 544, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bazaar (Impr)
+  rotate: false
+  xy: 820, 1915
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bone Carver
+  rotate: false
+  xy: 4, 392
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Extraction Site
+  rotate: false
+  xy: 220, 499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Outpost (Impr)
+  rotate: false
+  xy: 928, 1591
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Refinery (Impr)
+  rotate: false
+  xy: 328, 283
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Water Tank
+  rotate: false
+  xy: 328, 175
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wind Trap (Impr)
+  rotate: false
+  xy: 712, 1159
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Fremen
+  rotate: false
+  xy: 712, 1591
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Shai-Hulud
+  rotate: false
+  xy: 712, 1591
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/House Atreides
+  rotate: false
+  xy: 220, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/House Corrino
+  rotate: false
+  xy: 328, 499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/House Harkonnen
+  rotate: false
+  xy: 712, 1483
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/House Harkonnen1
+  rotate: false
+  xy: 820, 1591
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/House Ordos
+  rotate: false
+  xy: 928, 1699
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ammunition
+  rotate: false
+  xy: 712, 1915
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bones
+  rotate: false
+  xy: 112, 499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fuel
+  rotate: false
+  xy: 928, 1807
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Manpower
+  rotate: false
+  xy: 220, 283
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Power
+  rotate: false
+  xy: 1036, 1699
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Purified Spice
+  rotate: false
+  xy: 1144, 1807
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Spice
+  rotate: false
+  xy: 928, 1483
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Water
+  rotate: false
+  xy: 1360, 1915
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Exploration
+  rotate: false
+  xy: 112, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Martial Arts
+  rotate: false
+  xy: 328, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Military Science
+  rotate: false
+  xy: 436, 499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Spice Extraction
+  rotate: false
+  xy: 1036, 1591
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/The Spice Must Flow
+  rotate: false
+  xy: 4, 607
+  size: 700, 700
+  orig: 700, 700
+  offset: 0, 0
+  index: -1
+TechIcons/Trade
+  rotate: false
+  xy: 1144, 1699
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Wind Power
+  rotate: false
+  xy: 436, 283
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/AAAE
+  rotate: false
+  xy: 4, 4
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Arsenal (Impr)
+  rotate: false
+  xy: 112, 111
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Barracks (Impr)
+  rotate: false
+  xy: 820, 1311
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bazaar (Impr)
+  rotate: false
+  xy: 928, 1419
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bone Carver
+  rotate: false
+  xy: 1036, 1527
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bones
+  rotate: false
+  xy: 1144, 1635
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Botanical Garden
+  rotate: false
+  xy: 1252, 1743
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Caravansary (Impr)
+  rotate: false
+  xy: 1468, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center
+  rotate: false
+  xy: 436, 219
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Ancient era
+  rotate: false
+  xy: 436, 219
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Level 2
+  rotate: false
+  xy: 436, 219
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Level 3
+  rotate: false
+  xy: 436, 219
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Level 4
+  rotate: false
+  xy: 436, 219
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Level 5
+  rotate: false
+  xy: 436, 219
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Concrete Slab
+  rotate: false
+  xy: 1540, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Damaged Transport
+  rotate: false
+  xy: 712, 1031
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Deep Desert
+  rotate: false
+  xy: 256, 111
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Deep Desert2
+  rotate: false
+  xy: 820, 1183
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Deep Desert3
+  rotate: false
+  xy: 1612, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Deep Desert4
+  rotate: false
+  xy: 712, 967
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert
+  rotate: false
+  xy: 328, 111
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert+Hill
+  rotate: false
+  xy: 1756, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hill
+  rotate: false
+  xy: 1756, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert+Hill2
+  rotate: false
+  xy: 712, 839
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert2
+  rotate: false
+  xy: 1684, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert3
+  rotate: false
+  xy: 712, 903
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Deserta
+  rotate: false
+  xy: 1828, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dunes
+  rotate: false
+  xy: 1900, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dunes2
+  rotate: false
+  xy: 712, 711
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dunes4
+  rotate: false
+  xy: 712, 711
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dunesa
+  rotate: false
+  xy: 1972, 1959
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Extraction Site
+  rotate: false
+  xy: 712, 647
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Fallout
+  rotate: false
+  xy: 652, 543
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Heavy Factory (Impr)
+  rotate: false
+  xy: 1036, 1463
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/High-Tech Facility (Impr)
+  rotate: false
+  xy: 1684, 1895
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/House of IX (Impr)
+  rotate: false
+  xy: 1756, 1895
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hydro Plant (Impr)
+  rotate: false
+  xy: 1828, 1895
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Light Factory (Impr)
+  rotate: false
+  xy: 256, 47
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Light-Factory (Impr)
+  rotate: false
+  xy: 784, 1031
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain
+  rotate: false
+  xy: 784, 711
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain3
+  rotate: false
+  xy: 784, 711
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain-1
+  rotate: false
+  xy: 892, 1291
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain2
+  rotate: false
+  xy: 784, 647
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Oasis
+  rotate: false
+  xy: 892, 1227
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Outpost (Impr)
+  rotate: false
+  xy: 1108, 1443
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Palace (Impr)
+  rotate: false
+  xy: 1216, 1615
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Public School (Impr)
+  rotate: false
+  xy: 1216, 1551
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Refinery (Impr)
+  rotate: false
+  xy: 1576, 1831
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Repair Facility (Impr)
+  rotate: false
+  xy: 1648, 1831
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Rocket Turret (Impr)
+  rotate: false
+  xy: 1432, 1767
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Shai-Hulud
+  rotate: false
+  xy: 400, 27
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow
+  rotate: false
+  xy: 580, 199
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow2
+  rotate: false
+  xy: 580, 199
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow+Hill
+  rotate: false
+  xy: 580, 135
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow+Hill2
+  rotate: false
+  xy: 964, 1271
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow3
+  rotate: false
+  xy: 508, 135
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Spice
+  rotate: false
+  xy: 964, 1143
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Spice Silos (Impr)
+  rotate: false
+  xy: 1072, 1379
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Starport (Impr)
+  rotate: false
+  xy: 1072, 1315
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Trike
+  rotate: false
+  xy: 1180, 1487
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra
+  rotate: false
+  xy: 1468, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill
+  rotate: false
+  xy: 1540, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill2
+  rotate: false
+  xy: 1612, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Turret (Impr)
+  rotate: false
+  xy: 1684, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Wall
+  rotate: false
+  xy: 1756, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Water
+  rotate: false
+  xy: 1828, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Water Tank
+  rotate: false
+  xy: 1900, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Wind Trap (Impr)
+  rotate: false
+  xy: 1396, 1639
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Caravan
+  rotate: false
+  xy: 1360, 1851
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Combat Tank
+  rotate: false
+  xy: 544, 327
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Combat Tank-Atreides
+  rotate: false
+  xy: 712, 1095
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Combat Tank-Fremen
+  rotate: false
+  xy: 184, 111
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Combat Tank-Harkonnen
+  rotate: false
+  xy: 820, 1247
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Devastator
+  rotate: false
+  xy: 712, 775
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Fremen Mercenaries
+  rotate: false
+  xy: 652, 479
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Guild Navigator
+  rotate: false
+  xy: 652, 415
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Harvester
+  rotate: false
+  xy: 928, 1355
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Heavy Tank
+  rotate: false
+  xy: 1144, 1571
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Heavy Tank-Atreides
+  rotate: false
+  xy: 1252, 1679
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Heavy Tank-Fremen
+  rotate: false
+  xy: 1360, 1787
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Heavy Troopers
+  rotate: false
+  xy: 1468, 1895
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Heavy Troopers-Atreides
+  rotate: false
+  xy: 1540, 1895
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Heavy Troopers-Harkonnen
+  rotate: false
+  xy: 1612, 1895
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Kris-Swordsmen
+  rotate: false
+  xy: 1900, 1895
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lasgun Troopers
+  rotate: false
+  xy: 1972, 1895
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lasgun Troopers-Atreides
+  rotate: false
+  xy: 436, 155
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lasgun Troopers-Corrino
+  rotate: false
+  xy: 544, 263
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lasgun Troopers-Fremen
+  rotate: false
+  xy: 112, 47
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Lasgun Troopers-Harkonnen
+  rotate: false
+  xy: 184, 47
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Light Infantry
+  rotate: false
+  xy: 328, 47
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Light Infantry-Corrino
+  rotate: false
+  xy: 616, 327
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Light Infantry-Fremen
+  rotate: false
+  xy: 616, 263
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Light Infantry-Harkonnen
+  rotate: false
+  xy: 784, 1095
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/MCV
+  rotate: false
+  xy: 784, 967
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/MCV-Atreides
+  rotate: false
+  xy: 784, 903
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/MCV-Fremen
+  rotate: false
+  xy: 784, 839
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/MCV-Harkonnen
+  rotate: false
+  xy: 784, 775
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ornithopter
+  rotate: false
+  xy: 892, 1163
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ornithopter-Atreides
+  rotate: false
+  xy: 1000, 1399
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ornithopter-Fremen
+  rotate: false
+  xy: 1000, 1335
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ornithopter-Harkonnen
+  rotate: false
+  xy: 1108, 1507
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Quad
+  rotate: false
+  xy: 1324, 1723
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Quad-Atreides
+  rotate: false
+  xy: 1324, 1659
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Quad-Fremen
+  rotate: false
+  xy: 1432, 1831
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Quad-Harkonnen
+  rotate: false
+  xy: 1504, 1831
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Rocket Tank
+  rotate: false
+  xy: 1720, 1831
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Rocket Tank-Atreides
+  rotate: false
+  xy: 1792, 1831
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Rocket Tank-Fremen
+  rotate: false
+  xy: 1864, 1831
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Rocket Tank-Harkonnen
+  rotate: false
+  xy: 1936, 1831
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Saboteur
+  rotate: false
+  xy: 1504, 1767
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Sardaukars
+  rotate: false
+  xy: 1576, 1767
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Settler
+  rotate: false
+  xy: 1648, 1767
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Settler-Atreides
+  rotate: false
+  xy: 1720, 1767
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Settler-Corrino
+  rotate: false
+  xy: 1792, 1767
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Settler-Fremen
+  rotate: false
+  xy: 1864, 1767
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Settler-Harkonnen
+  rotate: false
+  xy: 1936, 1767
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Settler-Ordos
+  rotate: false
+  xy: 400, 91
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Shai-Hulud
+  rotate: false
+  xy: 508, 199
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Sonic Tank
+  rotate: false
+  xy: 964, 1207
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Trike
+  rotate: false
+  xy: 1180, 1423
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Trike-Atreides
+  rotate: false
+  xy: 1288, 1595
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Trike-Fremen
+  rotate: false
+  xy: 1288, 1531
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Trike-Harkonnen
+  rotate: false
+  xy: 1396, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Worker
+  rotate: false
+  xy: 1468, 1639
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+UnitIcons/Combat Tank
+  rotate: false
+  xy: 712, 1699
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Death Hand
+  rotate: false
+  xy: 820, 1807
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Devastator
+  rotate: false
+  xy: 928, 1915
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Executrix
+  rotate: false
+  xy: 4, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Leto Atreides
+  rotate: false
+  xy: 4, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Shaddam IV
+  rotate: false
+  xy: 4, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Stilgar
+  rotate: false
+  xy: 4, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Vladimir Harkonnen
+  rotate: false
+  xy: 4, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fremen Mercenaries
+  rotate: false
+  xy: 820, 1699
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Harvester
+  rotate: false
+  xy: 1036, 1915
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Tank
+  rotate: false
+  xy: 4, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Troopers
+  rotate: false
+  xy: 112, 283
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kris-Swordsmen
+  rotate: false
+  xy: 1036, 1807
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lasgun Troopers
+  rotate: false
+  xy: 1144, 1915
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Light Infantry
+  rotate: false
+  xy: 4, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/MCV
+  rotate: false
+  xy: 112, 175
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ornithopter
+  rotate: false
+  xy: 712, 1375
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Quad
+  rotate: false
+  xy: 1252, 1915
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Rocket Tank
+  rotate: false
+  xy: 436, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Saboteur
+  rotate: false
+  xy: 544, 499
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sardaukars
+  rotate: false
+  xy: 712, 1267
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sonic Tank
+  rotate: false
+  xy: 820, 1375
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Trike
+  rotate: false
+  xy: 1252, 1807
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
