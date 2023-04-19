@@ -1,0 +1,238 @@
+[
+{
+   "name": "Palace",
+   "isNationalWonder": true,
+   "production": 3,
+   "science": 3,
+   "gold": 3,
+   "culture": 1,
+   "cityStrength": 20,
+   "cityHealth": 50,
+   "cost": 1,
+   "uniques": [
+     "Indicates the capital city",
+     "Provides [1] [Human Resources]"]
+},
+{
+  "name": "Barracks",
+  "hurryCostModifier": 25,
+  "requiredResource": "Power",
+  "maintenance": 1,
+  "uniques": [
+      "New [Military] units start with [15] Experience [in this city]",
+      "Creates a [Barracks (Impr)] improvement on a specific tile",
+      "Limited to [5] per Civilization",
+      "Provides [2] [Human Resources]",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Martial Arts"
+},
+{
+  "name": "Wind Trap",
+  "hurryCostModifier": 25,
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Wind Trap (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured",
+      "Provides [1] [Power]"],
+  "requiredTech": "Wind Power"
+},
+{
+  "name": "Refinery",
+  "hurryCostModifier": 25,
+  "requiredResource": "Spice",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Refinery (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured",
+      "Provides [1] [Purified Spice]"],
+  "requiredTech": "Spice Extraction"
+},
+{
+  "name": "Spice Silos",
+  "hurryCostModifier": 25,
+  "requiredResource": "Spice",
+  "food": 2,
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Spice Silos (Impr)] improvement on a specific tile",
+      "[50]% Food is carried over after population increases [in this city]",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Spice Refinery"
+},
+{
+  "name": "Bazaar",
+  "hurryCostModifier": 25,
+  "requiredResource": "Power",
+  "maintenance": 1,
+  "gold": 2,
+  "uniques": [
+      "Creates a [Bazaar (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Trade"
+},
+{
+  "name": "Caravansary",
+  "hurryCostModifier": 25,
+  "requiredResource": "Spice",
+  "maintenance": 1,
+  "gold": 2,
+  "uniques": [
+      "Creates a [Caravansary (Impr)] improvement on a specific tile",
+      "Free [Caravan] appears",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Trade Routes"
+},
+{
+"name": "Outpost",
+"cost": 27,
+"requiredResource": "Power",
+"maintenance": 1,
+"requiredTech": "Exploration"
+"uniques": [
+    "Creates a [Outpost (Impr)] improvement on a specific tile",
+    "Reveals the entire map",
+    "Unsellable",
+    "Never destroyed when city is captured",
+],
+},
+{
+  "name": "Light Factory",
+  "hurryCostModifier": 25,
+  "requiredResource": "Power",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Light Factory (Impr)] improvement on a specific tile",
+      "New [Military] units start with [15] Experience [in this city]",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Light Vehicles"
+},
+{
+  "name": "Heavy Factory",
+  "hurryCostModifier": 25,
+  "requiredResource": "Power",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Heavy Factory (Impr)] improvement on a specific tile",
+      "New [Military] units start with [15] Experience [in this city]",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Heavy Vehicles"
+},
+{
+  "name": "High-Tech Facility",
+  "hurryCostModifier": 25,
+  "requiredResource": "Power",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [High-Tech Facility (Impr)] improvement on a specific tile",
+      "All newly-trained [non-air] units [in this city] receive the [Disembarkation] promotion",
+      "New [Military] units start with [15] Experience [in this city]",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Heavy Vehicles"
+},
+{
+  "name": "Arsenal",
+  "hurryCostModifier": 25,
+  "requiredResource": "Purified Spice",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Arsenal (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured",
+      "Provides [1] [SNT]"],
+  "requiredTech": "Advanced Chemistry"
+},
+{
+  "name": "House of IX",
+  "hurryCostModifier": 25,
+  "requiredResource": "Purified Spice",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [House of IX (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured",
+      "Provides [1] [Spice Oil]",
+      "Provides [2] [Power]"
+    ],
+  "requiredTech": "Nanotechnology"
+},
+{
+  "name": "Repair Facility",
+  "hurryCostModifier": 25,
+  "requiredResource": "Power",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Repair Facility (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured",
+      "[All] Units adjacent to this city heal [+30] HP per turn when healing"],
+  "requiredTech": "BBB"
+},
+{
+  "name": "Starport",
+  "hurryCostModifier": 25,
+  "requiredResource": "Purified Spice",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Starport (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured",
+      "Provides [1] [Spice Oil]"],
+  "requiredTech": "Galactic Trade"
+},
+{
+  "name": "Palace (Bldn)",
+  "hurryCostModifier": 25,
+  "requiredResource": "Purified Spice",
+  "maintenance": 1,
+  "uniques": [
+      "Creates a [Palace (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured",
+      "Provides [1] [Spice Oil]"],
+  "requiredTech": "Superweapon"
+},
+{
+		"name": "Walls",
+		"cityStrength": 15,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Military Science",
+		"uniques": [
+      "Never destroyed when city is captured",]
+	},
+  {
+		"name": "Turret",
+		"cityStrength": 15,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+    "requiredResource": "Power",
+		"requiredTech": "Lasers",
+		"uniques": [
+      "[+25]% Strength for cities <when attacking>",
+      "Creates a [Turret (Impr)] improvement on a specific tile",
+      "Never destroyed when city is captured",
+    ]
+	},
+  {
+		"name": "Rocket Turret",
+		"cityStrength": 15,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+    "requiredResource": "Power",
+		"requiredBuilding": "Turret",
+		"requiredTech": "Super-Heavy Vehicles",
+		"uniques": [
+      "[+50]% Strength for cities <when attacking>",
+      "Creates a [Rocket Turret (Impr)] improvement on a specific tile",
+      "Never destroyed when city is captured",]
+	},
+]

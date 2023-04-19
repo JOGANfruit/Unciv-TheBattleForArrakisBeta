@@ -1,0 +1,90 @@
+[
+    {
+  		"name": "Desert",
+  		"type": "Land",
+  		"movementCost": 2,
+  		"RGB": [ 230, 230, 113],
+  		"uniques": [
+              "Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+              "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+              "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+              "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+              "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+              "Units ending their turn on this terrain take [5] damage",
+              "[+1] to Fertility for Map Generation",
+              "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+              "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+              "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
+  	},
+    {
+      "name": "Mountain",
+  		"type": "Land",
+  		"impassable": true,
+  		"defenceBonus": 0.25,
+  		"RGB": [120, 120, 120],
+  		"uniques": [
+            "Rough terrain",
+  					"Has an elevation of [4] for visibility calculations",
+  					"Occurs in chains at high elevations",
+  					"Always Fertility [-2] for Map Generation",
+  					"Considered [Undesirable] when determining start locations"]
+    },
+    {
+      "name": "Dunes",
+  		"type": "Land",
+      "impassable": true,
+  		"movementCost": 2,
+  		"RGB": [203,134,67],
+  		"uniques": [
+            "Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+  			    "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+  			    "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+  			    "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+  			    "Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
+  			    "Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
+  			    "Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
+  			    "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+            "Units ending their turn on this terrain take [5] damage",]
+    },
+    {
+  		"name": "Hill",
+  		"type": "Land",
+      "production": 1,
+  		"movementCost": 1,
+  		"RGB": [125,51,0],
+  		"uniques": [
+            "Rough terrain",
+  					"Has an elevation of [2] for visibility calculations",
+  					"Occurs in groups around high elevations",
+  					"[+1] to Fertility for Map Generation",
+  					"A Region is formed with at least [30]% [Hill] tiles, with priority [5]",
+  					"Base Terrain on this tile is not counted for Region determination",
+  					"Considered [Desirable] when determining start locations",
+  					"Considered [Production] when determining start locations",
+  					"Every [35] tiles with this terrain will receive a major deposit of a strategic resource."]
+    },
+    {
+		"name": "Snow",
+		"type": "Land",
+    "food": 1,
+		"movementCost": 1,
+		"RGB": [230, 238, 255],
+		"uniques": [
+            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Undesirable] when determining start locations"]
+	},
+    {
+		"name": "Oasis",
+		"type": "Land",
+		"food": 3,
+		"movementCost": 1,
+		"RGB": [168,185,102],
+		"uniques": [
+      "Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+      "Considered [Desirable] when determining start locations",
+      "Considered [Food] when determining start locations <in [Desert] Regions>",
+    ]
+	},
+]

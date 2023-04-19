@@ -1,0 +1,222 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Ancient era",
+    "techCost": 25,
+    "buildingCost": 25,
+    "techs": [
+      {
+        "name": "Military Science",
+        "row": 1,
+        "uniques": ["Starting tech"]
+      },
+      {
+        "name": "The Spice Must Flow",
+        "row": 2,
+        "uniques": ["Starting tech"]
+      },
+      {
+        "name": "Wind Power",
+        "row": 3,
+        "uniques": ["Starting tech"]
+      },
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Ancient era",
+    "techCost": 25,
+    "buildingCost": 25,
+    "techs": [
+      {
+        "name": "Spice Extraction",
+        "row": 2,
+        "prerequisites": ["Wind Power", "The Spice Must Flow", "Military Science"]
+      },
+    ]
+  },
+  {
+		"columnNumber": 2,
+		"era": "Level 2",
+		"techCost": 50,
+		"buildingCost": 50,
+		"wonderCost": 50,
+		"techs": [
+			{
+				"name": "Martial Arts",
+				"row": 1,
+				"prerequisites": ["Spice Extraction"],
+      },
+      {
+				"name": "Trade",
+				"row": 2,
+				"prerequisites": ["Spice Extraction"],
+        "uniques": ["Enables conversion of city production to [Gold]"],
+      },
+      {
+				"name": "Exploration",
+				"row": 3,
+				"prerequisites": ["Spice Extraction"],
+        "uniques": ["Enables conversion of city production to [Science]"],
+      },
+		]
+	},
+  {
+		"columnNumber": 3,
+		"era": "Level 2",
+		"techCost": 75,
+		"buildingCost": 75,
+		"wonderCost": 75,
+		"techs": [
+      {
+				"name": "Lasers",
+				"row": 1,
+				"prerequisites": ["Martial Arts"],
+      },
+      {
+				"name": "Trade Routes",
+				"row": 2,
+				"prerequisites": ["Lasers", "Spice Refinery"],
+      },
+      {
+				"name": "Spice Refinery",
+				"row": 3,
+				"prerequisites": ["Exploration"],
+      },
+		]
+	},
+  {
+		"columnNumber": 4,
+		"era": "Level 3",
+		"techCost": 100,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+      {
+				"name": "Light Vehicles",
+				"row": 1,
+				"prerequisites": ["Lasers",],
+      },
+      {
+				"name": "Trade Routes",
+				"row": 2,
+				"prerequisites": ["Lasers", "Spice Refinery"],
+      },
+      {
+				"name": "Advanced Chemistry",
+				"row": 3,
+				"prerequisites": ["Spice Refinery"],
+      },
+		]
+	},
+  {
+		"columnNumber": 5,
+		"era": "Level 3",
+		"techCost": 150,
+		"buildingCost": 150,
+		"wonderCost": 150,
+		"techs": [
+      {
+				"name": "Heavy Vehicles",
+				"row": 1,
+				"prerequisites": ["Light Vehicles"],
+      },
+      {
+				"name": "AAA",
+				"row": 2,
+				"prerequisites": ["Light Vehicles", "Advanced Chemistry"],
+        "uniques": [
+          "Enables conversion of city production to [Culture]",
+        ],
+      },
+      {
+				"name": "BBB",
+				"row": 3,
+				"prerequisites": ["Advanced Chemistry"],
+      },
+		]
+	},
+  {
+		"columnNumber": 6,
+		"era": "Level 4",
+		"techCost": 200,
+		"buildingCost": 200,
+		"wonderCost": 200,
+		"techs": [
+      {
+				"name": "Aircraft",
+				"row": 1,
+				"prerequisites": ["Heavy Vehicles"],
+      },
+      {
+				"name": "Nanotechnology",
+				"row": 3,
+				"prerequisites": ["BBB"],
+      },
+		]
+	},
+  {
+		"columnNumber": 7,
+		"era": "Level 4",
+		"techCost": 250,
+		"buildingCost": 250,
+		"wonderCost": 250,
+		"techs": [
+      {
+				"name": "Super-Heavy Vehicles",
+				"row": 1,
+				"prerequisites": ["Aircraft"],
+      },
+      {
+				"name": "Extreme Agriculture",
+				"row": 2,
+				"prerequisites": ["Nanotechnology", "Aircraft"],
+        "uniques": [
+          "[+1 Food] from every [Desert]",
+          "[+1 Food] from every [Dunes]",
+          "[+2 Food] from every [Water]",
+          "[+2 Food] from every [Oasis]",
+       ],
+      },
+      {
+				"name": "EEE",
+				"row": 3,
+				"prerequisites": ["Nanotechnology"],
+      },
+		]
+	},
+  {
+		"columnNumber": 8,
+		"era": "Level 5",
+		"techCost": 300,
+		"buildingCost": 300,
+		"wonderCost": 300,
+		"techs": [
+      {
+				"name": "Superweapon",
+				"row": 1,
+				"prerequisites": ["Super-Heavy Vehicles"],
+      },
+      {
+				"name": "Galactic Trade",
+				"row": 3,
+				"prerequisites": ["EEE"],
+      },
+		]
+	},
+  {
+		"columnNumber": 9,
+		"era": "Level 5",
+		"techCost": 500,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+      {
+				"name": "Future Tech",
+				"row": 2,
+				"prerequisites": ["Superweapon", "Galactic Trade"],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+			}
+		]
+	},
+]

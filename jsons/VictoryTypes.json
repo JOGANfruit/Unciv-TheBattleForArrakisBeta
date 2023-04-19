@@ -1,0 +1,21 @@
+[
+{
+      "name": "Domination",
+      "victoryScreenHeader": "Destroy all enemies\nto win!",
+      "milestones": ["Destroy all players"],
+      "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+      "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+},
+{
+        "name": "Governor of Dune",
+        "victoryScreenHeader": "Become the Governor of Dune\nto win!",
+        "milestones": [
+            "Build [Starport]", "Add all [spaceship parts] in capital"
+        ],
+        "requiredSpaceshipParts": [
+            "Guild Navigator"
+        ],
+        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+]

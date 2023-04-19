@@ -1,0 +1,71 @@
+[
+  //Strategic
+  {
+    "name": "Spice",
+		"resourceType": "Strategic",
+		"revealedBy": "The Spice Must Flow",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"production": 2,
+    "food" : 2,
+		"improvement": "Extraction Site",
+		"improvementStats": {"production": 2},
+		"uniques": [
+          "Stockpiled",
+          "Guaranteed with Strategic Balance resource option"],
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+    "minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+  },
+  {
+		"name": "Power",
+    "revealedBy": "Wind Power",
+		"resourceType": "Strategic",
+		"gold": 1,
+    "uniques": [
+      "Stockpiled"
+    ]
+	},
+  {
+		"name": "Human Resources",
+    "revealedBy": "Military Science",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+  {
+		"name": "Purified Spice",
+    "revealedBy": "The Spice Must Flow",
+		"resourceType": "Strategic",
+		"gold": 1
+    "uniques": [
+      "Stockpiled"
+    ]
+	},
+  {
+		"name": "SNT",
+    "revealedBy": "Advanced Chemistry",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+  {
+		"name": "Spice Oil",
+    "revealedBy": "Nanotechnology",
+		"resourceType": "Strategic",
+		"gold": 1
+	},
+  //Luxury
+  {
+    "name": "Bones",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"gold": 2,
+		"improvement": "Bone Carver",
+		"improvementStats": {"gold": 2},
+  },
+  {
+    "name": "Water",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"food": 2,
+		"improvement": "Water Well",
+		"improvementStats": {"gold": 2},
+  },
+]

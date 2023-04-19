@@ -1,0 +1,32 @@
+[
+{
+    "name": "Militaristic",
+    "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+    "allyBonusUniques": ["Provides military units every ≈[15] turns", "[+3 Happiness] <starting from the [Level 3]>",],
+    "color": [255, 0, 0]
+},
+{
+    "name": "Mercantile",
+    "friendBonusUniques": [
+    "[+2 Food] [in capital]", "[+1 Food] [in all cities]"
+    "[+2 Gold] <starting from the [Level 3]>",
+    ],
+    "allyBonusUniques": [
+    "[+3 Food] [in capital]", "[+2 Food] [in all cities]",
+    "[+3 Gold] <starting from the [Level 3]>",
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Cultured",
+        "friendBonusUniques": [
+        "[+1 Culture] <before the [Level 3]>",
+        "[+2 Culture] <starting from the [Level 3]>",
+        ],
+        "allyBonusUniques": [
+        "[+2 Culture] <before the [Level 3]>",
+        "[+3 Culture] <starting from the [Level 3]>",
+        ],
+        "color": [139, 96, 255]
+    },
+]

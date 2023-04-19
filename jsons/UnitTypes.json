@@ -1,0 +1,61 @@
+[
+  //Civilian
+  {
+    "name": "Civilian",
+    "movementType": "Land"
+  },
+  //Military
+  {
+    "name": "Scout",
+    "movementType": "Land"
+  },
+  {
+    "name": "Light Infantry",
+    "movementType": "Land"
+    "uniques": ["Can pass through impassable tiles",]
+  },
+  {
+    "name": "Heavy Troopers",
+    "movementType": "Land"
+    "uniques": ["Can pass through impassable tiles",]
+  },
+  {
+    "name": "Ranged Infantry",
+    "movementType": "Land"
+    "uniques": ["Can pass through impassable tiles",]
+  },
+  {
+    "name": "Mechanized Infantry",
+    "movementType": "Land"
+  },
+  {
+    "name": "Armored",
+    "movementType": "Land"
+  },
+  {
+    "name": "Siege",
+    "movementType": "Land"
+  },
+  {
+    "name": "Ornithopter",
+    "movementType": "Land"
+  },
+  {
+    "name": "Superweapon",
+    "movementType": "Land"
+  },
+  {
+    "name": "Sand Worm",
+    "movementType": "Land"
+  },
+  {
+    "name": "Missile",
+    "movementType": "Air",
+    "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+  },
+  {
+    "name": "Hunter-Seeker",
+    "movementType": "Air",
+    "uniques": ["Self-destructs when attacking"]
+  },
+]

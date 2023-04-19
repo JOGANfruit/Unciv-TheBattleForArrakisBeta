@@ -1,0 +1,264 @@
+[
+{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"uniques": ["Unpillagable", "Irremovable", "Unbuildable"]
+},
+{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"]
+},
+{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+////////////////////////////////////////////////////////////////
+// Resource-specific
+{
+	"name": "Bone Carver",
+	"terrainsCanBeBuiltOn": ["Land"],
+	"culture": 1,
+	"turnsToBuild": 7,
+	"techRequired": "Trade",
+	"uniques": [
+		"Can only be built to improve a resource",
+	],
+	"shortcutKey": "Q"
+},
+{
+	"name": "Water Well",
+		 "terrainsCanBeBuiltOn": ["Desert"],
+		 "food": 2,
+		 "turnsToBuild": 7,
+		 "techRequired": "Exploration",
+		 "uniques": [
+			 "[+2 Happiness] <after discovering [EEE]>",
+			 "Can only be built to improve a resource",
+		 ]
+},
+{
+	"name": "Extraction Site",
+		 "terrainsCanBeBuiltOn": ["Desert"],
+		 "production": 1,
+		 "turnsToBuild": 7,
+		 "techRequired": "Spice Extraction",
+		 "uniques": [
+		 "[+3 Happiness] <after discovering [Spice Refinery]>",
+		 "[+3 Gold] <after discovering [Galactic Trade]>",
+		 "[+2 Food] <after discovering [BBB]>",
+		 "Can only be built to improve a resource",
+		 "Great Improvement",
+		 "Pillaging this improvement yields approximately [+20 Gold]"]
+},
+//Great Improvements
+{
+	"name": "Barracks (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 1,
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+2 Gold] for each adjacent [Spice]",
+]
+},
+{
+  "name": "Wind Trap (Impr)",
+  "terrainsCanBeBuiltOn": ["Hill"],
+  "production": 2,
+	"techRequired": "Wind Power",
+  "uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+1 Production] for each adjacent [Dunes]"]
+},
+{
+	"name": "Refinery (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 3,
+	"gold": 2,
+	"techRequired": "Spice Extraction",
+	"uniques": [
+		      "Great Improvement",
+					"[+3 Gold] for each adjacent [Spice]"]
+},
+{
+	"name": "Spice Silos (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"food": 2,
+	"techRequired": "Spice Refinery",
+	"uniques": [
+		      "Great Improvement",
+					"[+2 Food] for each adjacent [Spice]",
+				  "[+2 Food] for each adjacent [Water]"]
+},
+{
+	"name": "Bazaar (Impr)",
+	"terrainsCanBeBuiltOn": ["Desert"],
+	"gold": 3,
+	"techRequired": "Trade",
+	"uniques": [
+		      "Great Improvement",
+					"[+2 Gold] for each adjacent [Bones]",
+				  "[+3 Food] for each adjacent [Water]"]
+},
+{
+	"name": "Caravansary (Impr)",
+	"terrainsCanBeBuiltOn": ["Desert"],
+	"gold": 3,
+	"techRequired": "Trade Routes",
+	"uniques": [
+		      "Great Improvement",
+					"[+2 Gold] for each adjacent [Bones]",
+				  "[+3 Food] for each adjacent [Water]"]
+},
+{
+	"name": "Hydro Plant (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 2,
+	"food": 2,
+	"techRequired": "BBB",
+	"uniques": [
+		      "Great Improvement",
+				  "[+3 Production] for each adjacent [Water]"]
+},
+{
+	"name": "Outpost (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"science": 5,
+	"techRequired": "Exploration",
+	"uniques": [
+		"Great Improvement",
+		"[+3 Science] for each adjacent [Mountain]"]
+},
+{
+	"name": "Light Factory (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 1,
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Production] for each adjacent [Mountain]",
+]
+},
+{
+	"name": "Heavy Factory (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 1,
+	"techRequired": "Heavy Vehicles",
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Production] for each adjacent [Mountain]",
+"[+3 Gold] for each adjacent [Spice]"
+]
+},
+{
+	"name": "High-Tech Facility (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 1,
+	"techRequired": "Aircraft",
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Production] for each adjacent [Mountain]",
+"[+3 Gold] for each adjacent [Spice]"
+]
+},
+{
+	"name": "Arsenal (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 2,
+	"science": 2,
+	"techRequired": "Advanced Chemistry",
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Production] for each adjacent [Spice]",
+]
+},
+{
+	"name": "House of IX (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 2,
+	"science": 2,
+	"techRequired": "Nanotechnology",
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Science] for each adjacent [Spice]",
+]
+},
+{
+	"name": "Repair Facility (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"food": 3,
+	"techRequired": "BBB",
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+]
+},
+{
+	"name": "Starport (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"gold": 2,
+	"culture": 2,
+	"food": 2,
+	"techRequired": "Galactic Trade",
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Gold] for each adjacent [Spice]",
+"[+3 Gold] for each adjacent [Bones]",
+"[+3 Culture] for each adjacent [Water]",
+"[+3 Culture] for each adjacent [Oasis]",
+]
+},
+{
+	"name": "Palace (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"food": 3,
+	"techRequired": "Superweapon",
+	"uniques": [
+"Great Improvement",
+"Pillaging this improvement yields approximately [+20 Gold]",
+]
+},
+{
+	"name": "Turret (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"uniques": [
+		"Great Improvement",
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [30] damage",
+"Removes removable features when built",
+		]
+},
+{
+	"name": "Rocket Turret (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"uniques": [
+"Great Improvement",
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [60] damage",
+"Removes removable features when built",
+		]
+},
+// Others
+{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+},
+{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+},
+]

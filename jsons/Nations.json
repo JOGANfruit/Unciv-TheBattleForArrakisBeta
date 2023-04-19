@@ -1,0 +1,548 @@
+[
+  {
+    "name": "Spectator",
+		"outerColor": [255,255,255]
+  },
+  {
+ 		"name": "House Atreides",
+ 		"leaderName": "Leto Atreides",
+ 		"adjective": ["Atreides"],
+ 		"startBias": ["Hill"],
+ 		"preferredVictoryType":"Domination",
+    "style": "Atreides",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [255, 255, 255],
+ 		"innerColor": [165,0,0],
+ 		"uniqueName": "",
+ 		"uniques": [
+      "Starts with [Spice Extraction]",
+      "[+15]% growth [in all cities]",
+      "[+50]% Production when constructing [Harvester] units [in capital]",
+    ],
+ 		"cities": ["Arrakeen","Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
+			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
+			"Tyana", "Gaza", "Kerkyra", "Phoenice", "Selymbria", "Sillyon", "Chrysopolis", "Vodena", "Caesarea", "Traianoupoli", "Constantia", "Athens",
+			"Patra", "Korinthos"]
+ 	},
+  {
+    "name": "House Harkonnen",
+ 		"leaderName": "Vladimir Harkonnen",
+ 		"adjective": ["Harkonnen"],
+ 		"startBias": ["Hill"],
+ 		"preferredVictoryType":"Domination",
+    "style": "Harkonnen",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [4,0,88],
+ 		"innerColor": [213,107,0],
+ 		"uniqueName": "",
+ 		"uniques": [
+    "Starts with [Martial Arts]",
+    "+30% Strength when fighting City-State units and cities",
+    "New [Military] units start with [15] Experience [in all cities]",
+  ],
+ 		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
+			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
+			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
+			"Saldae"]
+  },
+  {
+    "name": "House Corrino",
+ 		"leaderName": "Shaddam IV",
+ 		"adjective": ["Corrino"],
+ 		"startBias": ["Hill"],
+ 		"preferredVictoryType":"Domination",
+    "style": "Corrino",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [0, 0, 0],
+ 		"innerColor": [240,202,0],
+ 		"uniqueName": "",
+ 		"uniques": [
+      "Starts with [Trade]",
+      "[Gold] cost of purchasing [All] units [-50]%",
+      "[+5 Gold] from every [Extraction Site]",
+    ],
+ 		"cities": ["Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"]
+  },
+  {
+    "name": "House Ordos",
+ 		"leaderName": "Executrix",
+ 		"adjective": ["Ordos"],
+ 		"startBias": ["Hill"],
+ 		"preferredVictoryType":"Domination",
+    "style": "Ordos",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [0,99,0],
+ 		"innerColor": [240,202,0],
+ 		"uniqueName": "",
+ 		"uniques": [
+      "Starts with [Exploration]",
+      "[+3 Science] from every [Outpost]"
+      "No movement cost to pillage <for [All] units>",
+    ],
+ 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
+			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
+			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
+			"Har-Ayrag","Nalayh","Tes"]
+  },
+  {
+    "name": "Fremen",
+ 		"leaderName": "Stilgar",
+ 		"adjective": ["Fremen"],
+ 		"startBias": ["Hill"],
+ 		"preferredVictoryType":"Domination",
+    "style": "Fremen",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [190,66,0],
+ 		"innerColor": [252,255,149],
+ 		"uniqueName": "",
+ 		"uniques": [
+      "Cannot build [Settler] units",
+      "Gifts of Gold to City-States generate [50]% more Influence"
+      "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+      "City-State territory always counts as friendly territory"
+    ],
+ 		"cities": ["Tabr","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
+			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
+			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
+			"Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
+			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
+			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
+			"Paishiyauvada","Patigrbana","Phrada"]
+  },
+  //Sity States
+  {
+    "name": "Tuek's Sietch",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [190,66,0],
+		"innerColor": [252,255,149],
+		"cities": ["Tuek's Sietch"],
+  },
+  {
+    "name": "Gara Kulon",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
+		"defeated": "The serbian guerilla will never stop haunting you!",
+		"outerColor": [190,66,0],
+		"innerColor": [252,255,149],
+		"cities": ["Gara Kulon"]
+  },
+  {
+    "name": "Red Chasm Sietch",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [190,66,0],
+		"innerColor": [252,255,149],
+		"cities": ["Red Chasm Sietch"]
+  },
+  {
+    "name": "Damascus",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Damascus"]
+  },
+  {
+    "name": "Baghdad",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Baghdad"]
+  },
+  {
+    "name": "Najran",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Najran"]
+  },
+  {
+    "name": "Kufah",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Kufah"]
+  },
+  {
+    "name": "Basra",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Basra"]
+  },
+  {
+    "name": "Kandahar",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Kandahar"]
+  },
+  {
+    "name": "Aleppo",
+		"adjective": ["Fremen"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Aleppo"]
+  },
+  {
+    "name": "Herat",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Herat"]
+  },
+  {
+    "name": "Aden",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Aden"]
+  },
+  {
+    "name": "Yamama",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Yamama"]
+  },
+  {
+    "name": "Muscat",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Muscat"]
+  },
+  {
+    "name": "Mansura",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Mansura"]
+  },
+  {
+    "name": "Bukhara",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Bukhara"]
+  },
+  {
+    "name": "Fez",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Fez"]
+  },
+  {
+    "name": "Shiraz",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Shiraz"]
+  },
+  {
+    "name": "Merw",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Merw"]
+  },
+  {
+    "name": "Balkh",
+		"adjective": ["Fremen"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Balkh"]
+  },
+  {
+    "name": "Mosul",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Mosul"]
+  },
+  {
+    "name": "Aydab",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Aydab"]
+  },
+  {
+    "name": "Bayt",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Bayt"]
+  },
+  {
+    "name": "Suhar",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Suhar"]
+  },
+  {
+    "name": "Taif",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Taif"]
+  },
+  {
+    "name": "Hama",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Hama"]
+  },
+  {
+    "name": "Tabuk",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Tabuk"]
+  },
+  {
+    "name": "Shihr",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Shihr"]
+  },
+  {
+    "name": "Tripoli",
+    "adjective": ["Fremen"],
+    "cityStateType": "Cultured",
+
+    "declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+    "attacked": "May god have mercy on your evil soul.",
+    "defeated": "I for one welcome our new conquer overlord!",
+    "outerColor": [0, 0, 0],
+    "innerColor": [211,180,113],
+    "cities": ["Tripoli"]
+  },
+  {
+    "name": "Oran",
+		"adjective": ["Fremen"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Oran"]
+  },
+  {
+    "name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,12,12],
+		"uniques": ["Can only heal by pillaging"]
+  }
+
+]
