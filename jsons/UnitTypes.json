@@ -39,6 +39,7 @@
   {
     "name": "Ornithopter",
     "movementType": "Land"
+    "uniques": ["Can pass through impassable tiles",]
   },
   {
     "name": "Superweapon",

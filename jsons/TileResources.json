@@ -4,9 +4,9 @@
     "name": "Spice",
 		"resourceType": "Strategic",
 		"revealedBy": "The Spice Must Flow",
-		"terrainsCanBeFoundOn": ["Desert"],
-		"production": 2,
-    "food" : 2,
+		"terrainsCanBeFoundOn": ["Desert", "Deep Desert"],
+		"production": 1,
+    "food" : 1,
 		"improvement": "Extraction Site",
 		"improvementStats": {"production": 2},
 		"uniques": [
@@ -25,10 +25,13 @@
     ]
 	},
   {
-		"name": "Human Resources",
-    "revealedBy": "Military Science",
+		"name": "Manpower",
+    "revealedBy": "Martial Arts",
 		"resourceType": "Strategic",
 		"gold": 1
+    "uniques": [
+      "Stockpiled"
+    ]
 	},
   {
 		"name": "Purified Spice",
@@ -40,22 +43,28 @@
     ]
 	},
   {
-		"name": "SNT",
+		"name": "Ammunition",
     "revealedBy": "Advanced Chemistry",
 		"resourceType": "Strategic",
 		"gold": 1
+    "uniques": [
+      "Stockpiled"
+    ]
 	},
   {
-		"name": "Spice Oil",
+		"name": "Fuel",
     "revealedBy": "Nanotechnology",
 		"resourceType": "Strategic",
 		"gold": 1
+    "uniques": [
+      "Stockpiled"
+    ]
 	},
   //Luxury
   {
     "name": "Bones",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert"],
+		"terrainsCanBeFoundOn": ["Desert", "Deep Desert"],
 		"gold": 2,
 		"improvement": "Bone Carver",
 		"improvementStats": {"gold": 2},
@@ -63,9 +72,9 @@
   {
     "name": "Water",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert"],
+		"terrainsCanBeFoundOn": ["Snow"],
 		"food": 2,
-		"improvement": "Water Well",
+		"improvement": "Water Tank",
 		"improvementStats": {"gold": 2},
   },
 ]

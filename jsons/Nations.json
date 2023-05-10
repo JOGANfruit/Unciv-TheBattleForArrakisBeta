@@ -62,7 +62,7 @@
  		"innerColor": [213,107,0],
  		"uniqueName": "",
  		"uniques": [
-    "Starts with [Martial Arts]",
+    "Starts with [Military Science]",
     "+30% Strength when fighting City-State units and cities",
     "New [Military] units start with [15] Experience [in all cities]",
   ],
@@ -109,7 +109,7 @@
     "name": "House Ordos",
  		"leaderName": "Executrix",
  		"adjective": ["Ordos"],
- 		"startBias": ["Hill"],
+ 		"startBias": ["Snow"],
  		"preferredVictoryType":"Domination",
     "style": "Ordos",
 

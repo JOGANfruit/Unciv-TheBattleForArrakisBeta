@@ -3,15 +3,14 @@
     {
       "name": "Light Infantry",
       "unitType": "Light Infantry",
-      "movement": 4,
+      "movement": 2,
       "strength": 50,
   		"cost": 200,
-  		"requiredTech": "Military Science",
-      "requiredResource": "Human Resources",
+  		"requiredTech": "Martial Arts",
   		"uniques": [
-        "Can move after attacking",
+        "Costs [10] [Manpower]"
         "[+100]% Strength <vs [Ranged Infantry] units>",
-        "May withdraw before melee ([75]%)",
+        "May withdraw before melee ([25]%)",
         "Can move after attacking",
         "Never appears as a Barbarian unit"],
   		"attackSound": "metalhit"
@@ -24,13 +23,14 @@
       "movement": 3,
       "strength": 50,
   		"cost": 200,
-  		"requiredTech": "Military Science",
-      "requiredResource": "Human Resources",
+  		"requiredTech": "Martial Arts",
+      "requiredResource": "Manpower",
   		"uniques": [
+        "Costs [7] [Manpower]"
         "Can move after attacking",
         "[+150]% Strength <vs [Ranged Infantry] units>",
         "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-        "May withdraw before melee ([75]%)",
+        "May withdraw before melee ([25]%)",
         "Never appears as a Barbarian unit"],
   		"attackSound": "metalhit"
     },
@@ -40,13 +40,12 @@
       "movement": 2,
       "strength": 50,
   		"cost": 250,
-  		"requiredTech": "Martial Arts",
-      "requiredResource": "Human Resources",
+  		"requiredTech": "Military Science",
+      "requiredResource": "Manpower",
   		"uniques": [
-        "[+100]% Strength <vs [Light Infantry] units>",
+        "Costs [15] [Manpower]"
         "[+25]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-        "[+25]% Strength <when defending>",
-        "Can pass through impassable tiles",
+        "[+50]% Strength <when defending>",
         "Never appears as a Barbarian unit",
         "Only available <if [Barracks] is constructed>"],
   		"attackSound": "metalhit"
@@ -59,9 +58,10 @@
       "movement": 2,
       "strength": 50,
   		"cost": 300,
-  	  "requiredTech": "Martial Arts",
-      "requiredResource": "Human Resources",
+  	  "requiredTech": "Military Science",
+      "requiredResource": "Manpower",
   		"uniques": [
+        "Costs [20] [Manpower]"
         "[+100]% Strength <vs [Light Infantry] units>",
         "[+33]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
         "[+33]% Strength <when defending>",
@@ -78,9 +78,10 @@
       "movement": 3,
       "strength": 50,
   		"cost": 250,
-  	  "requiredTech": "Martial Arts",
-      "requiredResource": "Human Resources",
+  	  "requiredTech": "Military Science",
+      "requiredResource": "Manpower",
   		"uniques": [
+        "Costs [10] [Manpower]"
         "[+100]% Strength <vs [Light Infantry] units>",
         "[+25]% Strength <when fighting in [Desert] tiles>",
         "[+25]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
@@ -97,9 +98,10 @@
       "movement": 3,
       "strength": 50,
   		"cost": 300,
-  	  "requiredTech": "Martial Arts",
-      "requiredResource": "Human Resources",
+  	  "requiredTech": "Military Science",
+      "requiredResource": "Manpower",
   		"uniques": [
+        "Costs [15] [Manpower]"
         "May Paradrop up to [7] tiles from inside friendly territory",
         "[+25]% Strength <when attacking>",
         "[+100]% to Flank Attack bonuses",
@@ -115,18 +117,17 @@
     {
       "name": "Lasgun Troopers",
       "unitType": "Ranged Infantry",
-      "movement": 3,
+      "movement": 2,
       "strength": 50,
       "rangedStrength": 50,
       "range": 2,
       "cost": 250,
       "requiredTech": "Lasers",
-      "requiredResource": "Human Resources",
+      "requiredResource": "Manpower",
       "uniques": [
+        "Costs [20] [Manpower]"
         "[+100]% Strength <vs cities> <when attacking>",
-        "[+100]% Strength <vs [Heavy Troopers] units>",
         "[+50]% Strength <vs [Mechanized Infantry] units>",
-        "[+50]% Strength <vs [Armored] units>",
         "Never appears as a Barbarian unit",
         "Only available <if [Barracks] is constructed>"],
       "attackSound": "metalhit"
@@ -138,7 +139,7 @@
       "movement": 5,
       "strength": 75,
   		"cost": 300,
-  		"requiredTech": "Light Vehicles",
+  		"requiredTech": "Mobile Tactics",
   		"uniques": [
         "Consumes [1] [Spice]",
         "[+100]% Strength <vs [Siege] units>",
@@ -158,7 +159,7 @@
       "rangedStrength": 25,
       "range": 3,
   		"cost": 350,
-      "requiredTech": "Light Vehicles",
+      "requiredTech": "Mobile Tactics",
   		"uniques": [
         "Consumes [2] [Spice]",
         "[100]% Strength <vs [Ornithopter] units>",
@@ -175,14 +176,12 @@
       "movement": 3,
       "strength": 75,
   		"cost": 400,
-  		"requiredTech": "Heavy Vehicles",
-      "requiredResource": "SNT",
+  		"requiredTech": "Composite Materials",
   		"uniques": [
         "Consumes [1] [Spice]",
-        "[+33]% Strength <vs [Ranged] units> <when defending>",
+        "[+100]% Strength <vs [Ranged] units> <when defending>",
+        "[100]% Strength <when defending>",
         "[+33]% Strength <vs [Land] units>",
-        "[+33]% Strength <when defending>",
-        "Can move after attacking",
         "Never appears as a Barbarian unit",
         "Only available <if [Heavy Factory] is constructed>"],
   		"attackSound": "tankshot"
@@ -195,8 +194,7 @@
   		"rangedStrength": 50,
   		"range": 3,
   		"cost": 450,
-  		"requiredTech": "Heavy Vehicles",
-      "requiredResource": "SNT",
+  		"requiredTech": "Composite Materials",
   		"uniques": [
         "[+1000]% Strength <vs cities> <when attacking>",
         "Ranged attacks may be performed over obstacles",
@@ -208,33 +206,13 @@
   		"attackSound": "artillery"
     },
     {
-      "name": "MCV",
-      "unitType": "Armored",
-      "movement": 3,
-      "strength": 50,
-  		"cost": 400,
-  		"requiredTech": "Super-Heavy Vehicles",
-      "requiredResource": "Power",
-  		"uniques": [
-        "Cannot attack",
-        "No defensive terrain bonus",
-        "[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+10] HP when healing",
-        "Founds a new city <by consuming this unit>",
-        "Can build [Land] improvements on tiles",
-        "Never appears as a Barbarian unit",
-        "Only available <if [Heavy Factory] is constructed>"],
-  		"attackSound": "tankshot"
-    },
-    {
       "name": "Ornithopter",
   		"unitType": "Ornithopter",
   		"movement": 7,
   		"strength": 75,
   		"cost": 450,
-  		"requiredTech": "Aircraft",
-      "requiredResource": "Spice Oil",
+  		"requiredTech": "Guilds",
   		"uniques": [
-        "Can pass through impassable tiles",
         "Can see invisible [Sand Worm] units",
         "[+100]% Strength <vs [Armored] units>",
         "No defensive terrain bonus",
@@ -247,154 +225,37 @@
   		"attackSound": "machinegun"
     },
     {
-      "name": "Heavy Tank",
-      "unitType": "Armored",
-      "movement": 2,
-      "strength": 100,
-  		"cost": 550,
-  		"requiredTech": "Super-Heavy Vehicles",
-  		"uniques": [
-        "Consumes [2] [Spice Oil]",
-        "[1] additional attacks per turn",
-        "No defensive terrain bonus",
-        "Never appears as a Barbarian unit",
-        "Only available <if [Heavy Factory] is constructed>"],
-  		"attackSound": "tankshot"
-    },
-    {
       "name": "Devastator",
       "unitType": "Armored",
       "uniqueTo": "House Harkonnen",
-      "replaces": "Heavy Tank",
+      "replaces": "Combat Tank",
       "movement": 2,
       "strength": 100,
       "rangedStrength": 75,
   		"range": 1,
   		"cost": 600,
-  		"requiredTech": "Super-Heavy Vehicles",
+  		"requiredTech": "Composite Materials",
       "requiredResource": "Purified Spice",
   		"uniques": [
-        "Consumes [2] [SNT]",
+        "Consumes [2] [Ammunition]",
         "[1] additional attacks per turn",
         "Can move after attacking",
         "No defensive terrain bonus",
         "Only available <if [Heavy Factory] is constructed>"],
   		"attackSound": "tankshot"
     },
-    //Superweapon
-    {
-     "name": "Sonic Tank",
-     "unitType": "Superweapon",
-     "uniqueTo": "House Atreides",
-     "movement": 3,
-     "strength": 100,
-     "rangedStrength": 100,
-     "range": 2,
-     "cost": 800,
-     "requiredTech": "Superweapon",
-     "uniques": [
-       "Consumes [3] [Spice Oil]",
-       "Can move after attacking",
-       "[+100]% Strength <vs [Armored] units> <when attacking>",
-       "[+100]% Strength <vs [Mechanized Infantry] units> <when attacking>",
-       "[-100]% Strength <vs cities> <when attacking>",
-       "Never appears as a Barbarian unit",
-       "Only available <if [Palace (Bldn)] is constructed>"],
-     "attackSound": "tankshot"
-    },
-    {
-     "name": "Deviator",
-     "unitType": "Superweapon",
-     "uniqueTo": "House Ordos",
-     "movement": 3,
-     "strength": 100,
-     "cost": 800,
-     "requiredTech": "Superweapon",
-     "requiredResource": "Purified Spice",
-     "uniques": [
-       "May capture killed [Land] units",
-       "[+100]% Strength <vs [Light Infantry] units>",
-       "[+100]% Strength <vs [Heavy Troopers] units>",
-       "[+100]% Strength <vs [Ranged Infantry] units>",
-       "Invisible to non-adjacent units",
-       "Consumes [2] [SNT]",
-       "Can move after attacking",
-       "No defensive terrain bonus",
-       "Never appears as a Barbarian unit",
-       "Only available <if [Palace (Bldn)] is constructed>"],
-     "attackSound": "tankshot"
-    },
-    {
-      "name": "Death Hand",
-  		"unitType": "Missile",
-      "uniqueTo": "House Harkonnen",
-  		"movement": 1,
-  		"strength": 300,
-  		"rangedStrength": 300,
-  		"range": 10,
-  		"cost": 1000,
-  		"requiredTech": "Superweapon",
-      "uniques": [
-      "Nuclear weapon of Strength [2]",
-			"Blast radius [2]",
-      "Consumes [3] [SNT]",
-      "Only available <if [Palace (Bldn)] is constructed>"],
-  		"attackSound": "nuke"
-    },
-    {
-      "name": "Heavy Lasgun",
-  		"unitType": "Superweapon",
-      "uniqueTo": "House Corrino",
-  		"movement": 3,
-  		"strength": 100,
-      "rangedStrength": 100,
-      "range": 2,
-  		"cost": 800,
-  		"requiredTech": "Superweapon",
-      "requiredResource": "Purified Spice",
-  		"uniques": [
-      "Can see invisible [Sand Worm] units",
-      "Can pass through impassable tiles",
-      "Consumes [3] [Spice Oil]",
-      "[+100]% Strength <vs [Armored] units>",
-      "[+100]% Strength <vs cities> <when attacking>",
-  		"All tiles cost 1 movement",
-      "No defensive terrain bonus",
-      "Ignores Zone of Control",
-      "Unable to capture cities",
-      "Never appears as a Barbarian unit",
-      "Only available <if [Palace (Bldn)] is constructed>"],
-  		"attackSound": "machinegun"
-    },
-    {
-     "name": "Shai-Hulud",
-     "unitType": "Sand Worm",
-     "uniqueTo": "Fremen",
-     "movement": 1,
-     "strength": 1000,
-     "cost": 5000,
-     "requiredTech": "Superweapon",
-     "uniques": [
-       "Consumes [5] [Spice]",
-       "[-100]% Strength <vs cities> <when attacking>",
-       "[-100]% Strength <vs [Ornithopter] units>",
-       "Unable to capture cities",
-       "Invisible to non-adjacent units",
-       "No defensive terrain bonus",
-       "Never appears as a Barbarian unit",
-       "Only available <if [Palace (Bldn)] is constructed>"],
-       "attackSound": "tankshot"
-    },
-    //Barbarian
-
+    //Barbarian Sand Worm
     //Civilian units
     {
       "name": "Settler",
   		"unitType": "Civilian",
   		"movement": 2,
   		"cost": 106,
-  		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-  			"Requires at least [2] population"],
+  		"uniques": [
+      "Costs [30] [Manpower]",
+      "Founds a new city",
+      "Excess Food converted to Production when under construction",
+  		"Requires at least [2] population"],
   		"hurryCostModifier": 20
     },
     {
@@ -404,105 +265,17 @@
   		"cost": 150,
       "requiredTech": "Spice Extraction",
   		"uniques": [
+        "Costs [10] [Manpower]",
         "Can instantly construct a [Extraction Site] improvement <by consuming this unit>"]
   	},
-    {
-      "name": "Leto Atreides",
-  		"unitType": "Civilian",
-      "replaces": "Settler",
-      "uniqueTo": "House Atreides",
-  		"movement": 2,
-  		"cost": 50,
-  		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
-  			"Requires at least [4] population"],
-  		"hurryCostModifier": 20
-    },
-    {
-      "name": "Vladimir Harkonnen",
-  		"unitType": "Civilian",
-      "replaces": "Settler",
-      "uniqueTo": "House Harkonnen",
-  		"movement": 2,
-  		"cost": 110,
-  		"uniques": [
-        "Founds a new city",
-        "May Paradrop up to [5] tiles from inside friendly territory",
-        "Excess Food converted to Production when under construction",
-  			"Requires at least [2] population"],
-  		"hurryCostModifier": 20
-    },
-    {
-      "name": "Shaddam IV",
-  		"unitType": "Civilian",
-      "replaces": "Settler",
-      "uniqueTo": "House Corrino",
-  		"movement": 2,
-  		"cost": 110,
-  		"uniques": [
-        "Founds a new city",
-        "Empire enters a [3]-turn Golden Age <by consuming this unit>",
-        "Excess Food converted to Production when under construction",
-  			"Requires at least [2] population"],
-  		"hurryCostModifier": 20
-    },
-    {
-      "name": "Executrix",
-  		"unitType": "Civilian",
-      "replaces": "Settler",
-      "uniqueTo": "House Ordos",
-  		"movement": 2,
-  		"cost": 110,
-  		"uniques": [
-        "Founds a new city",
-        "Invisible to non-adjacent units",
-        "Excess Food converted to Production when under construction",
-  			"Requires at least [2] population"],
-  		"hurryCostModifier": 20
-    },
-    {
-      "name": "Stilgar",
-  		"unitType": "Light Infantry",
-      "replaces": "Settler",
-      "uniqueTo": "Fremen",
-      "strength": 50,
-  		"movement": 2,
-  		"cost": 110,
-  		"uniques": [
-        "Founds a new city",
-        "Excess Food converted to Production when under construction",
-  			"Requires at least [2] population"],
-  		"hurryCostModifier": 20
-    },
     {
     "name": "Worker",
   		"unitType": "Civilian",
   		"movement": 2,
-  		"uniques": ["Can build [Land] improvements on tiles"],
+  		"uniques": [
+        "Costs [10] [Manpower]",
+        "Can build [Land] improvements on tiles"
+      ],
   		"cost": 70
     },
-    {
-		"name": "Caravan",
-		"unitType": "Civilian",
-		"uniques": [
-    "Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-    "Unbuildable",
-    "Uncapturable"],
-    "requiredTech": "Trade Routes",
-		"movement": 2
-	 },
-   {
-	 "name": "Guild Navigator",
-	 "unitType": "Civilian",
-	 "movement": 1,
-	 "cost": 750,
-	 "requiredTech": "Galactic Trade",
-	 "uniques": [
-   "Spaceship part",
-   "Consumes [25] [Spice]",
-   "Cannot be purchased",
-   "Only available <if [Starport] is constructed>",
-   "Uncapturable",
-   "Can be added to [The Spaceship] in the Capital",
-   "Limited to [1] per Civilization"]
-	  },
 ]

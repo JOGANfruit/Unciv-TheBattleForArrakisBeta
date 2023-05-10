@@ -29,13 +29,12 @@
 	"shortcutKey": "Q"
 },
 {
-	"name": "Water Well",
+	"name": "Water Tank",
 		 "terrainsCanBeBuiltOn": ["Desert"],
 		 "food": 2,
 		 "turnsToBuild": 7,
 		 "techRequired": "Exploration",
 		 "uniques": [
-			 "[+2 Happiness] <after discovering [EEE]>",
 			 "Can only be built to improve a resource",
 		 ]
 },
@@ -48,7 +47,6 @@
 		 "uniques": [
 		 "[+3 Happiness] <after discovering [Spice Refinery]>",
 		 "[+3 Gold] <after discovering [Galactic Trade]>",
-		 "[+2 Food] <after discovering [BBB]>",
 		 "Can only be built to improve a resource",
 		 "Great Improvement",
 		 "Pillaging this improvement yields approximately [+20 Gold]"]
@@ -58,6 +56,7 @@
 	"name": "Barracks (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"production": 1,
+	"techRequired": "Military Science",
 	"uniques": [
 "Great Improvement",
 "Pillaging this improvement yields approximately [+20 Gold]",
@@ -71,8 +70,7 @@
 	"techRequired": "Wind Power",
   "uniques": [
 "Great Improvement",
-"Pillaging this improvement yields approximately [+20 Gold]",
-"[+1 Production] for each adjacent [Dunes]"]
+"Pillaging this improvement yields approximately [+20 Gold]"]
 },
 {
 	"name": "Refinery (Impr)",
@@ -115,16 +113,6 @@
 				  "[+3 Food] for each adjacent [Water]"]
 },
 {
-	"name": "Hydro Plant (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"production": 2,
-	"food": 2,
-	"techRequired": "BBB",
-	"uniques": [
-		      "Great Improvement",
-				  "[+3 Production] for each adjacent [Water]"]
-},
-{
 	"name": "Outpost (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"science": 5,
@@ -137,6 +125,7 @@
 	"name": "Light Factory (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"production": 1,
+		"techRequired": "Mobile Tactics",
 	"uniques": [
 "Great Improvement",
 "Pillaging this improvement yields approximately [+20 Gold]",
@@ -147,7 +136,7 @@
 	"name": "Heavy Factory (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"production": 1,
-	"techRequired": "Heavy Vehicles",
+	"techRequired": "Composite Materials",
 	"uniques": [
 "Great Improvement",
 "Pillaging this improvement yields approximately [+20 Gold]",
@@ -159,7 +148,7 @@
 	"name": "High-Tech Facility (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"production": 1,
-	"techRequired": "Aircraft",
+	"techRequired": "Guilds",
 	"uniques": [
 "Great Improvement",
 "Pillaging this improvement yields approximately [+20 Gold]",
@@ -195,7 +184,7 @@
 	"name": "Repair Facility (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"food": 3,
-	"techRequired": "BBB",
+	"techRequired": "Advanced Chemistry",
 	"uniques": [
 "Great Improvement",
 "Pillaging this improvement yields approximately [+20 Gold]",
@@ -210,40 +199,16 @@
 	"techRequired": "Galactic Trade",
 	"uniques": [
 "Great Improvement",
-"Pillaging this improvement yields approximately [+20 Gold]",
-"[+3 Gold] for each adjacent [Spice]",
-"[+3 Gold] for each adjacent [Bones]",
-"[+3 Culture] for each adjacent [Water]",
-"[+3 Culture] for each adjacent [Oasis]",
-]
-},
-{
-	"name": "Palace (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"food": 3,
-	"techRequired": "Superweapon",
-	"uniques": [
-"Great Improvement",
-"Pillaging this improvement yields approximately [+20 Gold]",
-]
+"Pillaging this improvement yields approximately [+20 Gold]"]
 },
 {
 	"name": "Turret (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
+	"techRequired": "Lasers",
 	"uniques": [
 		"Great Improvement",
 "Gives a defensive bonus of [100]%",
 "Adjacent enemy units ending their turn take [30] damage",
-"Removes removable features when built",
-		]
-},
-{
-	"name": "Rocket Turret (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"uniques": [
-"Great Improvement",
-"Gives a defensive bonus of [100]%",
-"Adjacent enemy units ending their turn take [60] damage",
 "Removes removable features when built",
 		]
 },
