@@ -4,6 +4,10 @@
     "name": "Civilian",
     "movementType": "Land"
   },
+  {
+    "name": "Carrier",
+    "movementType": "Land"
+  },
   //Military
   {
     "name": "Scout",
@@ -20,9 +24,13 @@
     "uniques": ["Can pass through impassable tiles",]
   },
   {
-    "name": "Ranged Infantry",
+    "name": "Ranged",
     "movementType": "Land"
     "uniques": ["Can pass through impassable tiles",]
+  },
+  {
+    "name": "Turret",
+    "movementType": "Land"
   },
   {
     "name": "Mechanized Infantry",

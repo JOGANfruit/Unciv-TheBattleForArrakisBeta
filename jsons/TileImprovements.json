@@ -6,7 +6,7 @@
 },
 {
 		"name": "Barbarian encampment",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Deep Desert"],
 		"uniques": ["Unpillagable", "Unbuildable"]
 },
 {
@@ -15,7 +15,7 @@
 		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
-////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
 // Resource-specific
 {
 	"name": "Bone Carver",
@@ -24,6 +24,7 @@
 	"turnsToBuild": 7,
 	"techRequired": "Trade",
 	"uniques": [
+		"Great Improvement",
 		"Can only be built to improve a resource",
 	],
 	"shortcutKey": "Q"
@@ -35,53 +36,50 @@
 		 "turnsToBuild": 7,
 		 "techRequired": "Exploration",
 		 "uniques": [
+			 "Great Improvement",
 			 "Can only be built to improve a resource",
 		 ]
 },
+
 {
 	"name": "Extraction Site",
-		 "terrainsCanBeBuiltOn": ["Desert"],
-		 "production": 1,
+		 "terrainsCanBeBuiltOn": ["Spice Field"],
 		 "turnsToBuild": 7,
+		 "food": 1,
 		 "techRequired": "Spice Extraction",
 		 "uniques": [
-		 "[+3 Happiness] <after discovering [Spice Refinery]>",
-		 "[+3 Gold] <after discovering [Galactic Trade]>",
+		 "[+2 Happiness] <after discovering [Spice Refinery]>",
+		 "[+2 Gold] <after discovering [Galactic Trade]>",
 		 "Can only be built to improve a resource",
 		 "Great Improvement",
 		 "Pillaging this improvement yields approximately [+20 Gold]"]
 },
-//Great Improvements
-{
-	"name": "Barracks (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"production": 1,
-	"techRequired": "Military Science",
-	"uniques": [
-"Great Improvement",
-"Pillaging this improvement yields approximately [+20 Gold]",
-"[+2 Gold] for each adjacent [Spice]",
-]
-},
+////////////////////////////////////////////////////////////////////////////////
+//Improvements
 {
   "name": "Wind Trap (Impr)",
   "terrainsCanBeBuiltOn": ["Hill"],
-  "production": 2,
+	"turnsToBuild": 7,
 	"techRequired": "Wind Power",
   "uniques": [
-"Great Improvement",
+"Provides [2] [Power]",
+"[+1 Production] for each adjacent [Deep Desert]",
+"[+1 food] for each adjacent [Snow]",
 "Pillaging this improvement yields approximately [+20 Gold]"]
 },
 {
 	"name": "Refinery (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
-	"production": 3,
-	"gold": 2,
+	"turnsToBuild": 7,
 	"techRequired": "Spice Extraction",
 	"uniques": [
-		      "Great Improvement",
-					"[+3 Gold] for each adjacent [Spice]"]
+					"Consumes [1] [Spice]",
+					"Provides [1] [Purified Spice]",
+					"[+1 Production] for each adjacent [Spice]",
+				  "[+1 Food] for each adjacent [Spice]"]
 },
+//Great Improvements
+//Spice
 {
 	"name": "Spice Silos (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
@@ -89,72 +87,10 @@
 	"techRequired": "Spice Refinery",
 	"uniques": [
 		      "Great Improvement",
+					"Irremovable"
+					"Tile provides yield without assigned population",
 					"[+2 Food] for each adjacent [Spice]",
 				  "[+2 Food] for each adjacent [Water]"]
-},
-{
-	"name": "Bazaar (Impr)",
-	"terrainsCanBeBuiltOn": ["Desert"],
-	"gold": 3,
-	"techRequired": "Trade",
-	"uniques": [
-		      "Great Improvement",
-					"[+2 Gold] for each adjacent [Bones]",
-				  "[+3 Food] for each adjacent [Water]"]
-},
-{
-	"name": "Caravansary (Impr)",
-	"terrainsCanBeBuiltOn": ["Desert"],
-	"gold": 3,
-	"techRequired": "Trade Routes",
-	"uniques": [
-		      "Great Improvement",
-					"[+2 Gold] for each adjacent [Bones]",
-				  "[+3 Food] for each adjacent [Water]"]
-},
-{
-	"name": "Outpost (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"science": 5,
-	"techRequired": "Exploration",
-	"uniques": [
-		"Great Improvement",
-		"[+3 Science] for each adjacent [Mountain]"]
-},
-{
-	"name": "Light Factory (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"production": 1,
-		"techRequired": "Mobile Tactics",
-	"uniques": [
-"Great Improvement",
-"Pillaging this improvement yields approximately [+20 Gold]",
-"[+3 Production] for each adjacent [Mountain]",
-]
-},
-{
-	"name": "Heavy Factory (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"production": 1,
-	"techRequired": "Composite Materials",
-	"uniques": [
-"Great Improvement",
-"Pillaging this improvement yields approximately [+20 Gold]",
-"[+3 Production] for each adjacent [Mountain]",
-"[+3 Gold] for each adjacent [Spice]"
-]
-},
-{
-	"name": "High-Tech Facility (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"production": 1,
-	"techRequired": "Guilds",
-	"uniques": [
-"Great Improvement",
-"Pillaging this improvement yields approximately [+20 Gold]",
-"[+3 Production] for each adjacent [Mountain]",
-"[+3 Gold] for each adjacent [Spice]"
-]
 },
 {
 	"name": "Arsenal (Impr)",
@@ -164,6 +100,8 @@
 	"techRequired": "Advanced Chemistry",
 	"uniques": [
 "Great Improvement",
+"Irremovable"
+"Provides [1] [Ammunition]",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Production] for each adjacent [Spice]",
 ]
@@ -176,8 +114,101 @@
 	"techRequired": "Nanotechnology",
 	"uniques": [
 "Great Improvement",
+"Irremovable"
+"Provides [1] [Fuel]",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Science] for each adjacent [Spice]",
+]
+},
+//Gold
+{
+	"name": "Bazaar (Impr)",
+	"terrainsCanBeBuiltOn": ["Desert"],
+	"gold": 3,
+	"techRequired": "Trade",
+	"uniques": [
+		      "Great Improvement",
+					"Irremovable"
+					"Cannot be built on [Spice Field] tiles",
+					"Tile provides yield without assigned population",
+					"[+2 Gold] for each adjacent [Bones]",
+				  "[+2 Food] for each adjacent [Spice]"]
+},
+{
+	"name": "Caravansary (Impr)",
+	"terrainsCanBeBuiltOn": ["Desert"],
+	"gold": 3,
+	"techRequired": "Trade Routes",
+	"uniques": [
+		      "Great Improvement",
+					"Irremovable"
+					"Cannot be built on [Spice Field] tiles",
+					"Tile provides yield without assigned population",
+					"[+2 Gold] for each adjacent [Bones]",
+				  "[+3 Food] for each adjacent [Water]"]
+},
+{
+	"name": "Starport (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"gold": 5,
+	"techRequired": "Galactic Trade",
+	"uniques": [
+"Great Improvement",
+"Irremovable"
+"Tile provides yield without assigned population",
+"Pillaging this improvement yields approximately [+100 Gold]"]
+},
+//Military
+{
+	"name": "Barracks (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 1,
+	"techRequired": "Military Science",
+	"uniques": [
+"Great Improvement",
+"Irremovable",
+"Provides [1] [Manpower]",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+2 Gold] for each adjacent [Spice]",
+]
+},
+{
+	"name": "Light Factory (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 1,
+		"techRequired": "Mobile Tactics",
+	"uniques": [
+"Great Improvement",
+"Irremovable",
+"[+1 Production] for each adjacent [Barracks (Impr)]",
+"[+1 Production] for each adjacent [Mountain]",
+"Pillaging this improvement yields approximately [+20 Gold]",
+]
+},
+{
+	"name": "Heavy Factory (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 1,
+	"techRequired": "Composite Materials",
+	"uniques": [
+"Great Improvement",
+"Irremovable",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Production] for each adjacent [Mountain]",
+"[+3 Gold] for each adjacent [Spice]"
+]
+},
+{
+	"name": "Airfield (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 1,
+	"techRequired": "Guilds",
+	"uniques": [
+"Great Improvement",
+"Irremovable",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Production] for each adjacent [Mountain]",
+"[+3 Gold] for each adjacent [Spice]"
 ]
 },
 {
@@ -187,30 +218,19 @@
 	"techRequired": "Advanced Chemistry",
 	"uniques": [
 "Great Improvement",
+"Irremovable",
 "Pillaging this improvement yields approximately [+20 Gold]",
 ]
 },
 {
-	"name": "Starport (Impr)",
+	"name": "Outpost (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
-	"gold": 2,
 	"culture": 2,
-	"food": 2,
-	"techRequired": "Galactic Trade",
-	"uniques": [
-"Great Improvement",
-"Pillaging this improvement yields approximately [+20 Gold]"]
-},
-{
-	"name": "Turret (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"techRequired": "Lasers",
+	"techRequired": "Exploration",
 	"uniques": [
 		"Great Improvement",
-"Gives a defensive bonus of [100]%",
-"Adjacent enemy units ending their turn take [30] damage",
-"Removes removable features when built",
-		]
+		"Irremovable",
+		"[+1 Culture] for each adjacent [Mountain]"]
 },
 // Others
 {

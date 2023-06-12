@@ -8,10 +8,12 @@
   		"cost": 200,
   		"requiredTech": "Martial Arts",
   		"uniques": [
-        "Costs [10] [Manpower]"
-        "[+100]% Strength <vs [Ranged Infantry] units>",
+        "Consumes [2] [Command Point]",
+        "Costs [10] [Manpower]",
+        "[+100]% Strength <vs [Ranged] units>",
         "May withdraw before melee ([25]%)",
         "Can move after attacking",
+        "Can transform to [Carryall (Light Infantry)] <if [Airfield] is constructed>",
         "Never appears as a Barbarian unit"],
   		"attackSound": "metalhit"
     },
@@ -24,11 +26,11 @@
       "strength": 50,
   		"cost": 200,
   		"requiredTech": "Martial Arts",
-      "requiredResource": "Manpower",
   		"uniques": [
+        "Consumes [2] [Command Point]",
         "Costs [7] [Manpower]"
         "Can move after attacking",
-        "[+150]% Strength <vs [Ranged Infantry] units>",
+        "[+150]% Strength <vs [Ranged] units>",
         "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
         "May withdraw before melee ([25]%)",
         "Never appears as a Barbarian unit"],
@@ -41,10 +43,9 @@
       "strength": 50,
   		"cost": 250,
   		"requiredTech": "Military Science",
-      "requiredResource": "Manpower",
   		"uniques": [
-        "Costs [15] [Manpower]"
-        "[+25]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+        "Consumes [2] [Command Point]",
+        "Costs [15] [Manpower]",
         "[+50]% Strength <when defending>",
         "Never appears as a Barbarian unit",
         "Only available <if [Barracks] is constructed>"],
@@ -56,16 +57,15 @@
       "uniqueTo": "House Corrino",
       "replaces": "Heavy Troopers",
       "movement": 2,
-      "strength": 50,
+      "strength": 75,
   		"cost": 300,
   	  "requiredTech": "Military Science",
-      "requiredResource": "Manpower",
   		"uniques": [
-        "Costs [20] [Manpower]"
+        "Consumes [2] [Command Point]",
+        "Costs [50] [Spice]"
         "[+100]% Strength <vs [Light Infantry] units>",
-        "[+33]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-        "[+33]% Strength <when defending>",
-        "[+50]% XP gained from combat",
+        "[+50]% Strength <when defending>",
+        "Heals [50] damage if it kills a unit",
         "Never appears as a Barbarian unit",
         "Only available <if [Barracks] is constructed>"],
   		"attackSound": "metalhit"
@@ -79,13 +79,12 @@
       "strength": 50,
   		"cost": 250,
   	  "requiredTech": "Military Science",
-      "requiredResource": "Manpower",
   		"uniques": [
-        "Costs [10] [Manpower]"
+        "Consumes [2] [Command Point]",
+        "Costs [10] [Manpower]",
         "[+100]% Strength <vs [Light Infantry] units>",
         "[+25]% Strength <when fighting in [Desert] tiles>",
-        "[+25]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
-        "May withdraw before melee ([50]%)",
+        "May withdraw before melee ([25]%)",
         "Never appears as a Barbarian unit",
         "Only available <if [Barracks] is constructed>"],
   		"attackSound": "metalhit"
@@ -99,24 +98,22 @@
       "strength": 50,
   		"cost": 300,
   	  "requiredTech": "Military Science",
-      "requiredResource": "Manpower",
   		"uniques": [
-        "Costs [15] [Manpower]"
-        "May Paradrop up to [7] tiles from inside friendly territory",
-        "[+25]% Strength <when attacking>",
+        "Consumes [2] [Command Point]",
+        "Costs [15] [Manpower]",
         "[+100]% to Flank Attack bonuses",
         "Invisible to non-adjacent units",
         "May enter foreign tiles without open borders",
-        "Can move after attacking",
         "Ignores Zone of Control",
+        "Unable to capture cities",
         "Never appears as a Barbarian unit",
         "Only available <if [Barracks] is constructed>"],
   		"attackSound": "metalhit"
     },
-    //Ranged Infantry
+    //Ranged
     {
       "name": "Lasgun Troopers",
-      "unitType": "Ranged Infantry",
+      "unitType": "Ranged",
       "movement": 2,
       "strength": 50,
       "rangedStrength": 50,
@@ -125,13 +122,32 @@
       "requiredTech": "Lasers",
       "requiredResource": "Manpower",
       "uniques": [
-        "Costs [20] [Manpower]"
+        "Consumes [3] [Command Point]",
+        "Costs [20] [Manpower]",
         "[+100]% Strength <vs cities> <when attacking>",
         "[+50]% Strength <vs [Mechanized Infantry] units>",
         "Never appears as a Barbarian unit",
         "Only available <if [Barracks] is constructed>"],
       "attackSound": "metalhit"
     },
+  //Turret
+  {
+    "name": "Turret",
+    "unitType": "Turret",
+    "movement": 2,
+    "strength": 50,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Lasers",
+    "uniques": [
+      "Unbuildable",
+      "Cannot be purchased",
+      "Consumes [1] [Power]",
+      "Cannot move",
+      "No defensive terrain bonus",
+      "Never appears as a Barbarian unit"],
+    "attackSound": "metalhit"
+  },
   //Mechanized Infantry
     {
       "name": "Trike",
@@ -141,10 +157,10 @@
   		"cost": 300,
   		"requiredTech": "Mobile Tactics",
   		"uniques": [
-        "Consumes [1] [Spice]",
+        "Consumes [4] [Command Point]",
+        "Costs [15] [Purified Spice]",
         "[+100]% Strength <vs [Siege] units>",
         "[+33]% Strength <vs [Wounded] units>",
-        "[+25]% Strength <when attacking>",
         "Can move after attacking",
         "No defensive terrain bonus",
         "Never appears as a Barbarian unit",
@@ -161,9 +177,10 @@
   		"cost": 350,
       "requiredTech": "Mobile Tactics",
   		"uniques": [
-        "Consumes [2] [Spice]",
+        "Consumes [4] [Command Point]",
+        "Costs [20] [Purified Spice]",
         "[100]% Strength <vs [Ornithopter] units>",
-        "[-33]% Strength <vs cities> <when attacking>",
+        "Can only attack [Land] units",
         "[2] additional attacks per turn",
         "No defensive terrain bonus",
         "Never appears as a Barbarian unit",
@@ -178,10 +195,12 @@
   		"cost": 400,
   		"requiredTech": "Composite Materials",
   		"uniques": [
-        "Consumes [1] [Spice]",
+        "Consumes [5] [Command Point]",
+        "Costs [30] [Ammunition]",
         "[+100]% Strength <vs [Ranged] units> <when defending>",
         "[100]% Strength <when defending>",
         "[+33]% Strength <vs [Land] units>",
+        "Can move after attacking",
         "Never appears as a Barbarian unit",
         "Only available <if [Heavy Factory] is constructed>"],
   		"attackSound": "tankshot"
@@ -196,11 +215,15 @@
   		"cost": 450,
   		"requiredTech": "Composite Materials",
   		"uniques": [
+        "Consumes [5] [Command Point]",
+        "Costs [30] [Ammunition]",
         "[+1000]% Strength <vs cities> <when attacking>",
+        "[+100]% Strength <vs [Turret] units>",
         "Ranged attacks may be performed over obstacles",
         "Must set up to ranged attack",
         "No defensive terrain bonus",
   			"[-1] Sight",
+        "Can transform to [Carryall (Rocket Tank)] <if [Airfield] is constructed>",
         "Never appears as a Barbarian unit",
         "Only available <if [Heavy Factory] is constructed>"],
   		"attackSound": "artillery"
@@ -213,6 +236,8 @@
   		"cost": 450,
   		"requiredTech": "Guilds",
   		"uniques": [
+        "Consumes [5] [Command Point]",
+        "Costs [30] [Fuel]",
         "Can see invisible [Sand Worm] units",
         "[+100]% Strength <vs [Armored] units>",
         "No defensive terrain bonus",
@@ -221,7 +246,7 @@
         "Ignores Zone of Control",
         "Unable to capture cities",
         "Never appears as a Barbarian unit",
-        "Only available <if [High-Tech Facility] is constructed>"],
+        "Only available <if [Airfield] is constructed>"],
   		"attackSound": "machinegun"
     },
     {
@@ -231,20 +256,52 @@
       "replaces": "Combat Tank",
       "movement": 2,
       "strength": 100,
-      "rangedStrength": 75,
+      "rangedStrength": 50,
   		"range": 1,
   		"cost": 600,
   		"requiredTech": "Composite Materials",
-      "requiredResource": "Purified Spice",
   		"uniques": [
-        "Consumes [2] [Ammunition]",
+        "Consumes [5] [Command Point]",
+        "Costs [30] [Ammunition]",
         "[1] additional attacks per turn",
         "Can move after attacking",
-        "No defensive terrain bonus",
-        "Only available <if [Heavy Factory] is constructed>"],
+        "Can transform to [Carryall (Devastator)] <if [Airfield] is constructed>",
+        "Only available <if [Heavy Factory] is constructed>",
+        "Never appears as a Barbarian unit",],
   		"attackSound": "tankshot"
     },
     //Barbarian Sand Worm
+    //Carrier
+    {
+      "name": "Carryall (Light Infantry)",
+  		"unitType": "Carrier",
+  		"movement": 10,
+      "cost": 106,
+  		"uniques": [
+      "Unbuildable",
+      "Can transform to [Light Infantry]"],
+  		"hurryCostModifier": 20
+    },
+    {
+      "name": "Carryall (Rocket Tank)",
+  		"unitType": "Carrier",
+  		"movement": 10,
+      "cost": 106,
+  		"uniques": [
+      "Unbuildable",
+      "Can transform to [Rocket Tank]"],
+  		"hurryCostModifier": 20
+    },
+    {
+      "name": "Carryall (Devastator)",
+  		"unitType": "Carrier",
+  		"movement": 10,
+      "cost": 106,
+  		"uniques": [
+      "Unbuildable",
+      "Can transform to [Devastator]"],
+  		"hurryCostModifier": 20
+    },
     //Civilian units
     {
       "name": "Settler",
@@ -252,7 +309,7 @@
   		"movement": 2,
   		"cost": 106,
   		"uniques": [
-      "Costs [30] [Manpower]",
+      "Costs [20] [Manpower]",
       "Founds a new city",
       "Excess Food converted to Production when under construction",
   		"Requires at least [2] population"],
@@ -265,17 +322,20 @@
   		"cost": 150,
       "requiredTech": "Spice Extraction",
   		"uniques": [
-        "Costs [10] [Manpower]",
-        "Can instantly construct a [Extraction Site] improvement <by consuming this unit>"]
+        "Costs [5] [Manpower]",
+        "Can build [Extraction Site] improvements on tiles"]
   	},
     {
-    "name": "Worker",
+  		"name": "Worker",
   		"unitType": "Civilian",
-  		"movement": 2,
+  		"movement": 4,
+  		"cost": 70,
+      "requiredTech": "Wind Power",
   		"uniques": [
-        "Costs [10] [Manpower]",
-        "Can build [Land] improvements on tiles"
-      ],
-  		"cost": 70
-    },
+        "Costs [5] [Manpower]",
+        "Can transform to [Turret] <after discovering [Lasers]>",
+        "Can build [Land] improvements on tiles"]
+  	},
+    //Can build [Refinery (Impr)] improvements on tiles
+    //Can build [Wind Trap (Impr)] improvements on tiles
 ]

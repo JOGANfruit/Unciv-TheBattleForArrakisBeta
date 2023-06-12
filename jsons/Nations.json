@@ -26,11 +26,12 @@
 
  		"outerColor": [255, 255, 255],
  		"innerColor": [165,0,0],
- 		"uniqueName": "",
+ 		"uniqueName": "Imperial Tax",
  		"uniques": [
-      "Starts with [Spice Extraction]",
+      "You pay tribute to the House Corrino",
       "[+15]% growth [in all cities]",
       "[+50]% Production when constructing [Harvester] units [in capital]",
+      "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
     ],
  		"cities": ["Arrakeen","Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
@@ -60,9 +61,10 @@
 
  		"outerColor": [4,0,88],
  		"innerColor": [213,107,0],
- 		"uniqueName": "",
+ 		"uniqueName": "Imperial Tax",
  		"uniques": [
-    "Starts with [Military Science]",
+    "You pay tribute to the House Corrino",
+    "Provides [5] [Command Point]",
     "+30% Strength when fighting City-State units and cities",
     "New [Military] units start with [15] Experience [in all cities]",
   ],
@@ -94,11 +96,13 @@
 
  		"outerColor": [0, 0, 0],
  		"innerColor": [240,202,0],
- 		"uniqueName": "",
+ 		"uniqueName": "Imperial Tribute",
  		"uniques": [
+      "Great houses pay tribute to you",
+      "Provides [5] [Spice]",
       "Starts with [Trade]",
-      "[Gold] cost of purchasing [All] units [-50]%",
       "[+5 Gold] from every [Extraction Site]",
+      "Unhappiness from number of Cities doubled"
     ],
  		"cities": ["Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
@@ -128,10 +132,11 @@
 
  		"outerColor": [0,99,0],
  		"innerColor": [240,202,0],
- 		"uniqueName": "",
+ 		"uniqueName": "Imperial Tax",
  		"uniques": [
+      "You pay tribute to the House Corrino",
       "Starts with [Exploration]",
-      "[+3 Science] from every [Outpost]"
+      "[+2 Gold] from every specialist [in all cities]",
       "No movement cost to pillage <for [All] units>",
     ],
  		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
@@ -141,7 +146,7 @@
   },
   {
     "name": "Fremen",
- 		"leaderName": "Stilgar",
+ 		"leaderName": "Stilgar",//Can only attack [tileFilter] tiles
  		"adjective": ["Fremen"],
  		"startBias": ["Hill"],
  		"preferredVictoryType":"Domination",
@@ -162,11 +167,11 @@
 
  		"outerColor": [190,66,0],
  		"innerColor": [252,255,149],
- 		"uniqueName": "",
+ 		"uniqueName": "Imperial Tax",
  		"uniques": [
-      "Cannot build [Settler] units",
-      "Gifts of Gold to City-States generate [50]% more Influence"
-      "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+      "You pay tribute to the House Corrino",
+      "Gifts of Gold to City-States generate [50]% more Influence",
+      "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
       "City-State territory always counts as friendly territory"
     ],
  		"cities": ["Tabr","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
@@ -179,8 +184,8 @@
   },
   //Sity States
   {
-    "name": "Tuek's Sietch",
-		"adjective": ["Fremen"],
+    "name": "Tuek's Sietch",//May not annex cities
+		"adjective": ["Fremen"],//Automation is a primary action
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "You leave us no choice. War it must be.",

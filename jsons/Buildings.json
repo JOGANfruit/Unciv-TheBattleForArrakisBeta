@@ -11,63 +11,69 @@
    "cost": 1,
    "uniques": [
      "Indicates the capital city",
+     "Provides [1] [Manpower]",
+     "Provides [20] [Command Point]"]
+},
+{
+   "name": "Imperial Palace",
+   "isNationalWonder": true,
+   "replaces": "Palace",
+   "uniqueTo": "House Corrino",
+   "production": 3,
+   "science": 3,
+   "gold": 3,
+   "culture": 1,
+   "cityStrength": 10,
+   "cityHealth": 30,
+   "cost": 1,
+   "uniques": [
+     "Indicates the capital city",
      "Provides [1] [Manpower]"]
 },
-{
-  "name": "Barracks",
-  "hurryCostModifier": 25,
-  "requiredResource": "Power",
-  "maintenance": 1,
-  "uniques": [
-      "New [Military] units start with [15] Experience [in this city]",
-      "Creates a [Barracks (Impr)] improvement on a specific tile",
-      "Limited to [5] per Civilization",
-      "Provides [1] [Manpower]",
-      "Unsellable",
-      "Never destroyed when city is captured"],
-  "requiredTech": "Military Science"
-},
-{
-  "name": "Wind Trap",
-  "hurryCostModifier": 25,
-  "maintenance": 1,
-  "uniques": [
-      "Creates a [Wind Trap (Impr)] improvement on a specific tile",
-      "Unsellable",
-      "Never destroyed when city is captured",
-      "Provides [2] [Power]"],
-  "requiredTech": "Wind Power"
-},
-{
-  "name": "Refinery",
-  "hurryCostModifier": 25,
-  "requiredResource": "Spice",
-  "maintenance": 1,
-  "uniques": [
-      "Creates a [Refinery (Impr)] improvement on a specific tile",
-      "Unsellable",
-      "Never destroyed when city is captured",
-      "Provides [1] [Purified Spice]"],
-  "requiredTech": "Spice Extraction"
-},
+//Spice
 {
   "name": "Spice Silos",
   "hurryCostModifier": 25,
-  "requiredResource": "Spice",
   "food": 2,
   "maintenance": 1,
   "uniques": [
+      "Instantly consumes [20] [Spice]",
+      "Can only be built [in capital]",
       "Creates a [Spice Silos (Impr)] improvement on a specific tile",
-      "[50]% Food is carried over after population increases [in this city]",
+      "[100]% Food is carried over after population increases [in this city]",
       "Unsellable",
       "Never destroyed when city is captured"],
   "requiredTech": "Spice Refinery"
 },
 {
+  "name": "Arsenal",
+  "hurryCostModifier": 25,
+  "requiredResource": "Purified Spice",
+  "maintenance": 1,
+  "uniques": [
+      "Can only be built [in capital]",
+      "Creates a [Arsenal (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Advanced Chemistry"
+},
+{
+  "name": "House of IX",
+  "hurryCostModifier": 25,
+  "requiredResource": "Purified Spice",
+  "maintenance": 1,
+  "uniques": [
+      "Can only be built [in capital]",
+      "Creates a [House of IX (Impr)] improvement on a specific tile",
+      "Unsellable",
+      "Never destroyed when city is captured",
+    ],
+  "requiredTech": "Nanotechnology"
+},
+//Gold
+{
   "name": "Bazaar",
   "hurryCostModifier": 25,
-  "requiredResource": "Power",
-  "maintenance": 1,
   "gold": 2,
   "uniques": [
       "Creates a [Bazaar (Impr)] improvement on a specific tile",
@@ -78,8 +84,6 @@
 {
   "name": "Caravansary",
   "hurryCostModifier": 25,
-  "requiredResource": "Spice",
-  "maintenance": 1,
   "gold": 2,
   "uniques": [
       "Creates a [Caravansary (Impr)] improvement on a specific tile",
@@ -88,17 +92,33 @@
   "requiredTech": "Trade Routes"
 },
 {
-"name": "Outpost",
-"cost": 27,
-"requiredResource": "Power",
-"maintenance": 1,
-"requiredTech": "Exploration"
-"uniques": [
-    "Creates a [Outpost (Impr)] improvement on a specific tile",
-    "Reveals the entire map",
-    "Unsellable",
-    "Never destroyed when city is captured",
-],
+  "name": "Starport",
+  "gold": 8
+  "cost": 125,
+  "specialistSlots": {"Merchant": 2},
+  "percentStatBonus": {"Gold": 10},
+  "hurryCostModifier": 25,
+  "uniques": [
+      "Creates a [Starport (Impr)] improvement on a specific tile",
+      "Consumes [1] [Purified Spice]",
+      "Unsellable",
+      "Limited to [1] per Civilization",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Galactic Trade"
+},
+//Military
+{
+  "name": "Barracks",
+  "hurryCostModifier": 25,
+  "requiredResource": "Power",
+  "maintenance": 1,
+  "uniques": [
+      "New [Military] units start with [5] Experience [in this city]",
+      "Creates a [Barracks (Impr)] improvement on a specific tile",
+      "Limited to [5] per Civilization",
+      "Unsellable",
+      "Never destroyed when city is captured"],
+  "requiredTech": "Military Science"
 },
 {
   "name": "Light Factory",
@@ -107,7 +127,7 @@
   "maintenance": 1,
   "uniques": [
       "Creates a [Light Factory (Impr)] improvement on a specific tile",
-      "New [Military] units start with [15] Experience [in this city]",
+      "New [Military] units start with [5] Experience [in this city]",
       "Unsellable",
       "Never destroyed when city is captured"],
   "requiredTech": "Mobile Tactics"
@@ -119,49 +139,23 @@
   "maintenance": 1,
   "uniques": [
       "Creates a [Heavy Factory (Impr)] improvement on a specific tile",
-      "New [Military] units start with [15] Experience [in this city]",
+      "New [Military] units start with [5] Experience [in this city]",
       "Unsellable",
       "Never destroyed when city is captured"],
   "requiredTech": "Composite Materials"
 },
 {
-  "name": "High-Tech Facility",
+  "name": "Airfield",
   "hurryCostModifier": 25,
   "requiredResource": "Power",
   "maintenance": 1,
   "uniques": [
-      "Creates a [High-Tech Facility (Impr)] improvement on a specific tile",
+      "Creates a [Airfield (Impr)] improvement on a specific tile",
       "All newly-trained [non-air] units [in this city] receive the [Disembarkation] promotion",
-      "New [Military] units start with [15] Experience [in this city]",
+      "New [Military] units start with [5] Experience [in this city]",
       "Unsellable",
       "Never destroyed when city is captured"],
   "requiredTech": "Guilds"
-},
-{
-  "name": "Arsenal",
-  "hurryCostModifier": 25,
-  "requiredResource": "Purified Spice",
-  "maintenance": 1,
-  "uniques": [
-      "Creates a [Arsenal (Impr)] improvement on a specific tile",
-      "Unsellable",
-      "Never destroyed when city is captured",
-      "Provides [1] [Ammunition]"],
-  "requiredTech": "Advanced Chemistry"
-},
-{
-  "name": "House of IX",
-  "hurryCostModifier": 25,
-  "requiredResource": "Purified Spice",
-  "maintenance": 1,
-  "uniques": [
-      "Creates a [House of IX (Impr)] improvement on a specific tile",
-      "Unsellable",
-      "Never destroyed when city is captured",
-      "Provides [1] [Fuel]",
-      "Provides [2] [Power]"
-    ],
-  "requiredTech": "Nanotechnology"
 },
 {
   "name": "Repair Facility",
@@ -175,40 +169,28 @@
       "[All] Units adjacent to this city heal [+30] HP per turn when healing"],
   "requiredTech": "Advanced Chemistry"
 },
+//Culture
 {
-  "name": "Starport",
-  "hurryCostModifier": 25,
-  "requiredResource": "Purified Spice",
-  "maintenance": 1,
-  "uniques": [
-      "Creates a [Starport (Impr)] improvement on a specific tile",
-      "Unsellable",
-      "Never destroyed when city is captured",
-      "Provides [1] [Fuel]"],
-  "requiredTech": "Galactic Trade"
+"name": "Outpost",
+"cost": 27,
+"requiredResource": "Power",
+"maintenance": 1,
+"requiredTech": "Exploration"
+"uniques": [
+    "Creates a [Outpost (Impr)] improvement on a specific tile",
+    "Reveals the entire map",
+    "Unsellable",
+    "Never destroyed when city is captured",
+],
 },
-{
-		"name": "Turret",
-		"cityStrength": 15,
-		"cityHealth": 25,
+//////////////////////////////////////////////////////////////////////////////////
+    {
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 25,
-    "requiredResource": "Power",
-		"requiredTech": "Lasers",
-		"uniques": [
-      "[+25]% Strength for cities <when attacking>",
-      "Creates a [Turret (Impr)] improvement on a specific tile",
-      "Never destroyed when city is captured",
-    ]
-	},
-  {
-  		"name": "Walls",
-  		"cityStrength": 15,
-  		"cityHealth": 50,
-  		"hurryCostModifier": 25,
-  		"requiredTech": "Martial Arts",
-  		"uniques": [
-        "Never destroyed when city is captured",]
-  	},
+    "requiredTech": "The Spice Must Flow",
+   	},
     {
   		"name": "Courthouse",
   		"maintenance": 4,

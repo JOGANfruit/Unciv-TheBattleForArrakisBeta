@@ -4,11 +4,10 @@
     "name": "Spice",
 		"resourceType": "Strategic",
 		"revealedBy": "The Spice Must Flow",
-		"terrainsCanBeFoundOn": ["Desert", "Deep Desert"],
-		"production": 1,
+		"terrainsCanBeFoundOn": ["Spice Field"],
     "food" : 1,
 		"improvement": "Extraction Site",
-		"improvementStats": {"production": 2},
+		"improvementStats": {"production": 1},
 		"uniques": [
           "Stockpiled",
           "Guaranteed with Strategic Balance resource option"],
@@ -16,12 +15,19 @@
     "minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
   },
   {
+		"name": "Command Point",
+    "revealedBy": "Martial Arts",
+		"resourceType": "Strategic",
+		"gold": 1,
+    "uniques": [
+      "Cannot be traded"]
+	},
+  {
 		"name": "Power",
     "revealedBy": "Wind Power",
 		"resourceType": "Strategic",
 		"gold": 1,
     "uniques": [
-      "Stockpiled"
     ]
 	},
   {
@@ -60,21 +66,21 @@
       "Stockpiled"
     ]
 	},
-  //Luxury
-  {
-    "name": "Bones",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert", "Deep Desert"],
-		"gold": 2,
-		"improvement": "Bone Carver",
-		"improvementStats": {"gold": 2},
-  },
+  //Bonus
   {
     "name": "Water",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Snow"],
 		"food": 2,
 		"improvement": "Water Tank",
+		"improvementStats": {"gold": 2},
+  },
+  {
+    "name": "Bones",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Deep Desert"],
+		"gold": 2,
+		"improvement": "Bone Carver",
 		"improvementStats": {"gold": 2},
   },
 ]
