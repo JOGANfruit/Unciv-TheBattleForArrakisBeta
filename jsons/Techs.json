@@ -25,8 +25,8 @@
   {
     "columnNumber": 1,
     "era": "Ancient era",
-    "techCost": 25,
-    "buildingCost": 25,
+    "techCost": 50,
+    "buildingCost": 50,
     "techs": [
       {
         "name": "Spice Extraction",
@@ -38,9 +38,9 @@
   {
 		"columnNumber": 2,
 		"era": "Ancient era",
-		"techCost": 50,
-		"buildingCost": 50,
-		"wonderCost": 50,
+		"techCost": 100,
+		"buildingCost": 100,
+		"wonderCost": 100,
 		"techs": [
 			{
 				"name": "Military Science",
@@ -63,10 +63,10 @@
 	},
   {
 		"columnNumber": 3,
-		"era": "Level 2",
-		"techCost": 75,
-		"buildingCost": 75,
-		"wonderCost": 75,
+		"era": "Ancient era",
+		"techCost": 150,
+		"buildingCost": 150,
+		"wonderCost": 150,
 		"techs": [
       {
 				"name": "Lasers",
@@ -87,10 +87,10 @@
 	},
   {
 		"columnNumber": 4,
-		"era": "Level 2",
-		"techCost": 100,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"era": "Ancient era",
+		"techCost": 200,
+		"buildingCost": 200,
+		"wonderCost": 200,
 		"techs": [
       {
 				"name": "Mobile Tactics",
@@ -111,10 +111,10 @@
 	},
   {
 		"columnNumber": 5,
-		"era": "Level 3",
-		"techCost": 150,
-		"buildingCost": 150,
-		"wonderCost": 150,
+		"era": "Ancient era",
+		"techCost": 300,
+		"buildingCost": 300,
+		"wonderCost": 300,
 		"techs": [
       {
 				"name": "Composite Materials",
@@ -138,10 +138,10 @@
 	},
   {
 		"columnNumber": 6,
-		"era": "Level 3",
-		"techCost": 200,
-		"buildingCost": 200,
-		"wonderCost": 200,
+		"era": "Ancient era",
+		"techCost": 500,
+		"buildingCost": 500,
+		"wonderCost": 500,
 		"techs": [
       {
 				"name": "Coming Soon",

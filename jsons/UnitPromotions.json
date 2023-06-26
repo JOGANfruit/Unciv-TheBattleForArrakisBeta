@@ -3,71 +3,71 @@
   {
 		"name": "Shock I",
 		"uniques": ["[+11]% Strength <when attacking>"],
-		"unitTypes": ["Light Infantry"],
+		"unitTypes": ["Infantry"],
 	},
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+11]% Strength <when attacking>"],
-		"unitTypes": ["Light Infantry"],
+		"unitTypes": ["Infantry"],
 	},
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+11]% Strength <when attacking>"],
-		"unitTypes": ["Light Infantry"],
+		"unitTypes": ["Infantry"],
 	},
   {
 		"name": "Charge I",
 		"uniques": ["[+11]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Light Infantry"],
+		"unitTypes": ["Infantry"],
 	},
   {
 		"name": "Charge II",
 		"prerequisites": ["Charge I"],
 		"uniques": ["[+11]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Light Infantry"],
+		"unitTypes": ["Infantry"],
 	},
   {
 		"name": "Charge III",
 		"prerequisites": ["Charge II"],
 		"uniques": ["[+11]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Light Infantry"],
+		"unitTypes": ["Infantry"],
 	},
   //Heavy Troopers
   {
 		"name": "Cover I",
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Heavy Troopers"],
+		"unitTypes": ["Infantry"],
 	},
 	{
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Heavy Troopers"],
+		"unitTypes": ["Infantry"],
 	},
   {
 		"name": "Cover III",
 		"prerequisites": ["Cover II"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Heavy Troopers"],
+		"unitTypes": ["Infantry"],
 	},
   {
 		"name": "Survivalism I",
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+11]% Strength <when defending>"],
-		"unitTypes": ["Heavy Troopers"],
+		"unitTypes": ["Infantry"],
 	},
 	{
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+11]% Strength <when defending>"],
-		"unitTypes": ["Heavy Troopers"],
+		"unitTypes": ["Infantry"],
 	},
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+11]% Strength <when defending>"],
-		"unitTypes": ["Heavy Troopers"],
+		"unitTypes": ["Infantry"],
 	},
 //Ranged Infantry
   {
@@ -104,9 +104,9 @@
 		"uniques": ["[+11]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Ranged"],
 	},
-  /////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
   {
-		"name": "Disembarkation",
-		"uniques": ["May Paradrop up to [15] tiles from inside friendly territory"]
+		"name": "Sand Rider",
+		"uniques": ["May Paradrop up to [20] tiles from inside friendly territory"]
 	},
 ]

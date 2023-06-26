@@ -3,10 +3,18 @@
   {
     "name": "Civilian",
     "movementType": "Land"
+    "uniques": [
+      "Can pass through impassable tiles",
+      "May travel on Water tiles without embarking"]
   },
   {
     "name": "Carrier",
     "movementType": "Land"
+    "uniques": [
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "May travel on Water tiles without embarking"
+    ]
   },
   //Military
   {
@@ -14,19 +22,18 @@
     "movementType": "Land"
   },
   {
-    "name": "Light Infantry",
+    "name": "Infantry",
     "movementType": "Land"
-    "uniques": ["Can pass through impassable tiles",]
-  },
-  {
-    "name": "Heavy Troopers",
-    "movementType": "Land"
-    "uniques": ["Can pass through impassable tiles",]
+    "uniques": [
+      "Can pass through impassable tiles",
+      "May travel on Water tiles without embarking"]
   },
   {
     "name": "Ranged",
     "movementType": "Land"
-    "uniques": ["Can pass through impassable tiles",]
+    "uniques": [
+      "Can pass through impassable tiles",
+      "May travel on Water tiles without embarking"]
   },
   {
     "name": "Turret",
@@ -34,20 +41,29 @@
   },
   {
     "name": "Mechanized Infantry",
-    "movementType": "Land"
+    "movementType": "Land",
+    "uniques": [
+      "May travel on Water tiles without embarking"]
   },
   {
     "name": "Armored",
     "movementType": "Land"
+    "uniques": [
+      "May travel on Water tiles without embarking"]
   },
   {
     "name": "Siege",
     "movementType": "Land"
+    "uniques": [
+      "May travel on Water tiles without embarking"]
   },
   {
     "name": "Ornithopter",
     "movementType": "Land"
-    "uniques": ["Can pass through impassable tiles",]
+    "uniques": [
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "May travel on Water tiles without embarking"]
   },
   {
     "name": "Superweapon",
@@ -55,7 +71,7 @@
   },
   {
     "name": "Sand Worm",
-    "movementType": "Land"
+    "movementType": "Water"
   },
   {
     "name": "Missile",

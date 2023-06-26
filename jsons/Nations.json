@@ -29,9 +29,9 @@
  		"uniqueName": "Imperial Tax",
  		"uniques": [
       "You pay tribute to the House Corrino",
-      "[+15]% growth [in all cities]",
-      "[+50]% Production when constructing [Harvester] units [in capital]",
+      "Gifts of Gold to City-States generate [50]% more Influence",
       "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
+      "City-State territory always counts as friendly territory"
     ],
  		"cities": ["Arrakeen","Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
@@ -67,6 +67,7 @@
     "Provides [5] [Command Point]",
     "+30% Strength when fighting City-State units and cities",
     "New [Military] units start with [15] Experience [in all cities]",
+    "[50]% City-State Influence degradation"
   ],
  		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
 			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
@@ -100,6 +101,7 @@
  		"uniques": [
       "Great houses pay tribute to you",
       "Provides [5] [Spice]",
+      "May not annex cities",
       "Starts with [Trade]",
       "[+5 Gold] from every [Extraction Site]",
       "Unhappiness from number of Cities doubled"
@@ -146,7 +148,7 @@
   },
   {
     "name": "Fremen",
- 		"leaderName": "Stilgar",//Can only attack [tileFilter] tiles
+ 		"leaderName": "Stilgar Ben Fifrawi",//Can only attack [tileFilter] tiles
  		"adjective": ["Fremen"],
  		"startBias": ["Hill"],
  		"preferredVictoryType":"Domination",
@@ -170,9 +172,10 @@
  		"uniqueName": "Imperial Tax",
  		"uniques": [
       "You pay tribute to the House Corrino",
-      "Gifts of Gold to City-States generate [50]% more Influence",
-      "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
-      "City-State territory always counts as friendly territory"
+      "All newly-trained [Infantry] units [in all cities] receive the [Sand Rider] promotion",
+      "[15]% Production when constructing [Infantry] units [in capital]",
+      "No movement cost to pillage <for [Infantry] units>",
+      "Cannot build [Ornithopter] units"
     ],
  		"cities": ["Tabr","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
@@ -182,7 +185,37 @@
 			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
 			"Paishiyauvada","Patigrbana","Phrada"]
   },
-  //Sity States
+  //{
+    //"name": "Smugglers",
+ 		//"leaderName": "Esmar Tuek",
+ 		//"adjective": ["Smuggler's"],
+ 		//"startBias": ["Hill"],
+ 		//"preferredVictoryType":"Domination",
+    //"style": "Smugglers",
+
+ 		//"startIntroPart1": "",
+ 		//"startIntroPart2": "",
+
+ 		//"declaringWar": "",
+ 		//"attacked": "",
+ 		//"defeated": "",
+ 		//"introduction": "",
+
+ 		//"neutralHello": "",
+ 		//"hateHello": "",
+
+ 		//"tradeRequest": "",
+
+ 		//"outerColor": [6,136,231],
+ 		//"innerColor": [252,255,149],
+ 		//"uniqueName": "Imperial Tax",
+ 		//"uniques": [
+      //"You pay tribute to the House Corrino",
+      //"Cannot build [Settler] units"
+    //],
+ 		//"cities": ["Tuek's Sietch"]
+  //},
+  //City States
   {
     "name": "Tuek's Sietch",//May not annex cities
 		"adjective": ["Fremen"],//Automation is a primary action

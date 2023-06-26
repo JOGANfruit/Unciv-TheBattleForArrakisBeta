@@ -1,0 +1,16 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+       "Enables embarkation for land units",
+        "Cannot build [Settler] units <when below [0] [Spice]>",
+        "[-10 Happiness] <when below [0] [Spice]>",
+        "May buy [Wonders] buildings for [10] [Science] [in capital]",
+        "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
+        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
+        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
+        "Cannot build [Settler] units <when below [-10] Happiness>",
+        "Rebel units may spawn <when below [-20] Happiness>",
+        "[-1] Sight <for [Embarked] units>"
+      ]
+}

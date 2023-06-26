@@ -1,17 +1,20 @@
 [
 {
 		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Hill", "Sand Sea"],
 		"uniques": ["Unpillagable", "Irremovable", "Unbuildable"]
 },
 {
 		"name": "Barbarian encampment",
-		"terrainsCanBeBuiltOn": ["Deep Desert"],
-		"uniques": ["Unpillagable", "Unbuildable"]
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			 "Unpillagable",
+			 "Unbuildable",
+		]
 },
 {
 		"name": "City ruins",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Hill", "Sand Sea"],
 		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
@@ -43,11 +46,13 @@
 
 {
 	"name": "Extraction Site",
-		 "terrainsCanBeBuiltOn": ["Spice Field"],
-		 "turnsToBuild": 7,
+		 "terrainsCanBeBuiltOn": ["Sand Sea"],
 		 "food": 1,
 		 "techRequired": "Spice Extraction",
 		 "uniques": [
+		 "Can be built outside your borders",
+		 "Constructing it will take over the tiles around it and assign them to your closest city",
+		 "Tile provides yield without assigned population",
 		 "[+2 Happiness] <after discovering [Spice Refinery]>",
 		 "[+2 Gold] <after discovering [Galactic Trade]>",
 		 "Can only be built to improve a resource",
@@ -63,8 +68,9 @@
 	"techRequired": "Wind Power",
   "uniques": [
 "Provides [2] [Power]",
+"Tile provides yield without assigned population",
 "[+1 Production] for each adjacent [Deep Desert]",
-"[+1 food] for each adjacent [Snow]",
+"[+1 Food] for each adjacent [Snow]",
 "Pillaging this improvement yields approximately [+20 Gold]"]
 },
 {
@@ -129,7 +135,7 @@
 	"uniques": [
 		      "Great Improvement",
 					"Irremovable"
-					"Cannot be built on [Spice Field] tiles",
+					"Cannot be built on [Sand Sea] tiles",
 					"Tile provides yield without assigned population",
 					"[+2 Gold] for each adjacent [Bones]",
 				  "[+2 Food] for each adjacent [Spice]"]
@@ -142,7 +148,7 @@
 	"uniques": [
 		      "Great Improvement",
 					"Irremovable"
-					"Cannot be built on [Spice Field] tiles",
+					"Cannot be built on [Sand Sea] tiles",
 					"Tile provides yield without assigned population",
 					"[+2 Gold] for each adjacent [Bones]",
 				  "[+3 Food] for each adjacent [Water]"]
@@ -224,6 +230,31 @@
 },
 {
 	"name": "Outpost (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"culture": 2,
+	"techRequired": "Exploration",
+	"uniques": [
+		"Great Improvement",
+		"Irremovable",
+		"[+1 Culture] for each adjacent [Mountain]"]
+},
+//Great person
+{
+	"name": "Rebel Camp",
+	"terrainsCanBeBuiltOn": ["Desert"],
+	"production": 1,
+	"uniques": [
+		"Great Improvement",
+		"Irremovable",
+		"Provides [1] [Command Point]",
+		"Can be built just outside your borders",
+    "Constructing it will take over the tiles around it and assign them to your closest city",
+		"Tile provides yield without assigned population",
+		"[+1 Production] for each adjacent [Rebel Camp]"]
+},
+//Wonders
+{
+	"name": "Hydro Plant (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"culture": 2,
 	"techRequired": "Exploration",

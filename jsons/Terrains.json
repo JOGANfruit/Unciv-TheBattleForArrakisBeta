@@ -4,7 +4,7 @@
   		"name": "Desert",
   		"type": "Land",
   		"movementCost": 2,
-  		"RGB": [ 230, 230, 113],
+  		"RGB": [202, 150, 68],
   		"uniques": [
               "Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
               "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
@@ -20,10 +20,8 @@
     "name": "Deep Desert",
     "type": "Land",
     "movementCost": 2,
-    "RGB": [153, 180, 51],
+    "RGB": [210, 162, 88],
     "uniques": [
-            "Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
-            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
             "Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
             "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
@@ -33,19 +31,11 @@
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
     {
-		"name": "Spice Field",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"unbuildable": true,
-		"defenceBonus": -0.1,
-		"occursOn": ["Desert", "Deep Desert"],
-		"uniques": [
-          "Rare feature",
-					"Only [Extraction Site] improvements may be built on this tile",
-					"Always Fertility [4] for Map Generation",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
-	  },
+		"name": "Sand Sea",
+		"type": "Water",
+    "movementCost": 2,
+    "RGB": [179, 129, 59],
+	 },
  //Hills
     {
       "name": "Mountain",
@@ -97,10 +87,24 @@
 		"name": "Oasis",
 		"type": "NaturalWonder",
 		"food": 6,
+    "culture": 2,
 		"occursOn": ["Desert"],
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": ["Fresh water"],
 		"weight": 10
 	 },
+   {
+		"name": "Volcano",
+		"type": "NaturalWonder",
+		"production": 5,
+		"culture": 1,
+		"occursOn": ["Hill"],
+		"uniques": [
+      "Units ending their turn on this terrain take [100] damage",
+    ],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
 ]

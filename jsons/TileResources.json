@@ -4,7 +4,7 @@
     "name": "Spice",
 		"resourceType": "Strategic",
 		"revealedBy": "The Spice Must Flow",
-		"terrainsCanBeFoundOn": ["Spice Field"],
+		"terrainsCanBeFoundOn": ["Sand Sea"],
     "food" : 1,
 		"improvement": "Extraction Site",
 		"improvementStats": {"production": 1},
