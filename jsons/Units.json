@@ -4,7 +4,7 @@
       "name": "Light Infantry",
       "unitType": "Infantry",
       "movement": 2,
-      "strength": 50,
+      "strength": 25,
   		"cost": 200,
   		"requiredTech": "Martial Arts",
   		"uniques": [
@@ -35,7 +35,7 @@
       "uniqueTo": "House Atreides",
       "replaces": "Light Infantry",
       "movement": 3,
-      "strength": 50,
+      "strength": 25,
   		"cost": 200,
   		"requiredTech": "Martial Arts",
   		"uniques": [
@@ -71,14 +71,14 @@
       "uniqueTo": "House Corrino",
       "replaces": "Heavy Troopers",
       "movement": 2,
-      "strength": 75,
+      "strength": 50,
   		"cost": 300,
   	  "requiredTech": "Military Science",
   		"uniques": [
         "Consumes [3] [Command Point]",
         "Costs [20] [Manpower]",
         "[+50]% Strength <when defending>",
-        "Heals [50] damage if it kills a unit",
+        "Damage is ignored when determining unit Strength",
         "Can transform to [Carryall (Sardaukars)] <if [Airfield] is constructed>",
         "Only available <if [Barracks] is constructed>",
         "Never appears as a Barbarian unit"],
@@ -193,11 +193,12 @@
       "Cannot move",
       "Cannot attack",
       "No defensive terrain bonus",
+      "<after adopting [Defence Systems]>",
       "Never appears as a Barbarian unit"],
     "attackSound": "tankshot"
   },
   {
-    "name": "Wall-Bottom",
+    "name": "Wall-Lateral",
     "unitType": "Turret",
     "movement": 0,
     "strength": 200,
@@ -208,6 +209,7 @@
       "Cannot move",
       "Cannot attack",
       "No defensive terrain bonus",
+      "<after adopting [Defence Systems]>",
       "Never appears as a Barbarian unit"],
     "attackSound": "tankshot"
   },
@@ -525,7 +527,7 @@
         "Costs [5] [Manpower]",
         "Uncapturable",
         "Can transform to [Wall]",
-        "Can transform to [Wall-Bottom]",
+        "Can transform to [Wall-Lateral]",
         "Can transform to [Turret] <after discovering [Lasers]>",
         "Can transform to [Carryall (Worker)] <if [Airfield] is constructed>",
         "Can build [Land] improvements on tiles"]
@@ -533,8 +535,7 @@
     //Great Person
     {
 		"name": "Defector Commander",
-		"unitType": "Infantry",
-    "strength": 50,
+		"unitType": "Civilian",
     "movement": 2
 		"uniques": [
       "Can instantly construct a [Rebel Camp] improvement <by consuming this unit> <if it hasn't used other actions yet>",

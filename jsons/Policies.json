@@ -38,7 +38,8 @@
                 "name": "Modular Parts",
                 "uniques": [
                     "[+25]% Production when constructing [Worker] units [in capital]",
-                    "Free [Settler] appears"
+                    "[+25]% Production when constructing [Harvester] units [in capital]",
+                    "[+25]% Production when constructing [Settler] units [in capital]",
                 ],
                 "requires": ["Solid Materials"],
                 "row": 2,
@@ -128,16 +129,15 @@
               "Scientific": 0,
           },
           "uniques": [
-            "[3] Unit Supply",
-            "May heal outside of friendly territory",
+            "[10] Unit Supply",
             "[+3 Culture] [in capital]",
         ],
           "policies": [
               {
                   "name": "Survival Training",
                   "uniques": [
-                      "[3] Unit Supply",
-                      "[+5]% Production when constructing [All] buildings [in all cities]"
+                      "[8] units cost no maintenance",
+                      "May heal outside of friendly territory",
                   ],
                   "row": 1,
                   "column": 3
@@ -145,8 +145,9 @@
               {
                   "name": "Defence Systems",
                   "uniques": [
-                      "[-50]% maintenance cost for buildings [in capital]",
-                      "Quantity of strategic resources produced by the empire +[5]%",
+                      "[+25]% Strength for cities <when defending>",
+                      "Unlocks walls",
+                      "Unlocks Rocket Turret",
                   ],
                   "requires": ["Survival Training"],
                   "row": 2,
@@ -155,8 +156,9 @@
               {
                   "name": "Support Structures",
                   "uniques": [
-                      "[+25]% Production when constructing [Worker] units [in capital]",
-                      "Free [Settler] appears"
+                      "Provides [1] [Ammunition]",
+                      "Provides [1] [Fuel]",
+                      "Unlocks the Repair Facility building",
                   ],
                   "requires": ["Survival Training"],
                   "row": 2,
@@ -165,10 +167,8 @@
               {
                   "name": "Ground Command",
                   "uniques": [
-                    "Provides [2] [Power]",
-                    "[+2 Gold] from every [Wind Trap (Impr)]",
-                    "Unlocks the Spice Silos building",
-                    "Quantity of strategic resources produced by the empire +[5]%"
+                    "Provides [1] [Command Point]",
+                    "[+2 Production] from every [Barracks (Impr)]",
                   ],
                   "requires": ["Survival Training"],
                   "row": 2,
@@ -177,9 +177,9 @@
               {
                   "name": "Military Threat",
                   "uniques": [
-                      "[+1 Production] from every [Extraction Site]",
-                      "Unlocks the Spice Silos building",
-                      "Quantity of strategic resources produced by the empire +[5]%"
+                      "[+15]% Strength <when fighting units from a Civilization with more Cities than you>"
+                      "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                      "[-33]% maintenance costs <for [All] units>",
                   ],
                   "requires": ["Support Structures"],
                   "row": 3,
@@ -188,9 +188,9 @@
               {
                   "name": "Call to Arms",
                   "uniques": [
-                      "[+2 Gold] from every specialist [in capital]",
-                      "May buy [Mercenaries] units with [Gold] for [3] times their normal Production cost",
-                      "Quantity of strategic resources produced by the empire +[5]%",
+                      "Provides [2] [Command Point]",
+                      "Provides [100] [Manpower]",
+                      "[Gold] cost of purchasing [Infantry] units [-20]%",
                   ],
                   "requires": ["Ground Command"],
                   "row": 3,
@@ -199,10 +199,10 @@
               {
                   "name": "Army Logistics",
                   "uniques": [
-                     "[+1 Happiness] from every [Extraction Site]",
-                     "[-25]% Unhappiness from [Population] [in all non-occupied cities]",
-                     "Quantity of strategic resources produced by the empire +[5]%",
-                     "Empire enters golden age"
+                     "Cities are razed [2] times as fast",
+                     "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+                     "Heals [50] damage if it kills a unit",
+                     "Earn [25]% of killed [Military] unit's [Cost] as [Gold]",
                   ],
                   "requires": ["Defence Systems"],
                   "row": 3,
@@ -211,8 +211,10 @@
               {
                   "name": "Air Command",
                   "uniques": [
-                      "[+1 Happiness] [in all cities connected to capital]",
-                      "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+                      "Provides [1] [Command Point]",
+                      "[+2 Production] from every [Airfield (Impr)]",
+                      "New [Ornithopter] units start with [15] Experience [in capital]",
+                      "[+25]% Production when constructing [Ornithopter] units [in all cities]",
                   ],
                   "requires": ["Military Threat"],
                   "row": 4,
@@ -221,9 +223,10 @@
               {
                   "name": "High Command",
                   "uniques": [
-                     "[-25]% Gold cost of acquiring tiles [in all cities]"
-                     "[+1 Happiness] [in all cities connected to capital]",
-                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+                     "Provides [1] [Command Point]",
+                     "[+2 Production] from every [Heavy Factory (Impr)]",
+                     "New [Armored] units start with [15] Experience [in capital]",
+                     "[+25]% Production when constructing [Armored] units [in all cities]",
                   ],
                   "requires": ["Call to Arms"],
                   "row": 4,
