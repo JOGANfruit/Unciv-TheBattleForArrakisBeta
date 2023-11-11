@@ -1,7 +1,7 @@
 [
 {
 		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Hill", "Sand Sea"],
+		"terrainsCanBeBuiltOn": ["Hill", "Coast"],
 		"uniques": ["Unpillagable", "Irremovable", "Unbuildable"]
 },
 {
@@ -14,47 +14,21 @@
 },
 {
 		"name": "City ruins",
-		"terrainsCanBeBuiltOn": ["Hill", "Sand Sea"],
+		"terrainsCanBeBuiltOn": ["Hill", "Coast"],
 		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 ////////////////////////////////////////////////////////////////////////////////
-// Resource-specific
-{
-	"name": "Bone Carver",
-	"terrainsCanBeBuiltOn": ["Land"],
-	"culture": 1,
-	"turnsToBuild": 7,
-	"techRequired": "Trade",
-	"uniques": [
-		"Great Improvement",
-		"Can only be built to improve a resource",
-	],
-	"shortcutKey": "Q"
-},
-{
-	"name": "Water Tank",
-		 "terrainsCanBeBuiltOn": ["Desert"],
-		 "food": 2,
-		 "turnsToBuild": 7,
-		 "techRequired": "Exploration",
-		 "uniques": [
-			 "Great Improvement",
-			 "Can only be built to improve a resource",
-		 ]
-},
-
 {
 	"name": "Extraction Site",
-		 "terrainsCanBeBuiltOn": ["Sand Sea"],
-		 "food": 1,
+		 "terrainsCanBeBuiltOn": ["Coast"],
+		 "gold": 2,
 		 "techRequired": "Spice Extraction",
 		 "uniques": [
 		 "Can be built outside your borders",
 		 "Constructing it will take over the tiles around it and assign them to your closest city",
 		 "Tile provides yield without assigned population",
 		 "[+2 Happiness] <after discovering [Spice Refinery]>",
-		 "[+2 Gold] <after discovering [Galactic Trade]>",
 		 "Can only be built to improve a resource",
 		 "Great Improvement",
 		 "Pillaging this improvement yields approximately [+20 Gold]"]
@@ -62,27 +36,59 @@
 ////////////////////////////////////////////////////////////////////////////////
 //Improvements
 {
-  "name": "Wind Trap (Impr)",
+  "name": "Wind Trap",
   "terrainsCanBeBuiltOn": ["Hill"],
+    "production": 1,
 	"turnsToBuild": 7,
 	"techRequired": "Wind Power",
   "uniques": [
-"Provides [2] [Power]",
+"Provides [1] [Power]",
+"Provides [1] [Power]<in [River] tiles>",
 "Tile provides yield without assigned population",
-"[+1 Production] for each adjacent [Deep Desert]",
-"[+1 Food] for each adjacent [Snow]",
 "Pillaging this improvement yields approximately [+20 Gold]"]
 },
 {
-	"name": "Refinery (Impr)",
+	"name": "Refinery",
 	"terrainsCanBeBuiltOn": ["Hill"],
+    "production": 2,
 	"turnsToBuild": 7,
 	"techRequired": "Spice Extraction",
 	"uniques": [
 					"Consumes [1] [Spice]",
 					"Provides [1] [Purified Spice]",
-					"[+1 Production] for each adjacent [Spice]",
-				  "[+1 Food] for each adjacent [Spice]"]
+]
+},
+    {
+	"name": "Arsenal",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 3,
+    "culture": 2,
+    "turnsToBuild": 7,
+	"techRequired": "Advanced Chemistry",
+	"uniques": [
+"Great Improvement",
+"Irremovable"
+"Consumes [1] [Purified Spice]",
+"Provides [1] [Ammunition]",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Production] for each adjacent [Spice]",
+]
+},
+{
+	"name": "House of IX",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"production": 2,
+    "culture": 3,
+    "turnsToBuild": 7,
+	"techRequired": "Nanotechnology",
+	"uniques": [
+"Great Improvement",
+"Irremovable"
+"Consumes [1] [Purified Spice]",
+"Provides [1] [Fuel]",
+"Pillaging this improvement yields approximately [+20 Gold]",
+"[+3 Science] for each adjacent [Spice]",
+]
 },
 //Great Improvements
 //Spice
@@ -90,41 +96,13 @@
 	"name": "Spice Silos (Impr)",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"food": 2,
-	"techRequired": "Spice Refinery",
+	"techRequired": "Spice Extraction",
 	"uniques": [
 		      "Great Improvement",
 					"Irremovable"
 					"Tile provides yield without assigned population",
 					"[+2 Food] for each adjacent [Spice]",
 				  "[+2 Food] for each adjacent [Water]"]
-},
-{
-	"name": "Arsenal (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"production": 2,
-	"science": 2,
-	"techRequired": "Advanced Chemistry",
-	"uniques": [
-"Great Improvement",
-"Irremovable"
-"Provides [1] [Ammunition]",
-"Pillaging this improvement yields approximately [+20 Gold]",
-"[+3 Production] for each adjacent [Spice]",
-]
-},
-{
-	"name": "House of IX (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"production": 2,
-	"science": 2,
-	"techRequired": "Nanotechnology",
-	"uniques": [
-"Great Improvement",
-"Irremovable"
-"Provides [1] [Fuel]",
-"Pillaging this improvement yields approximately [+20 Gold]",
-"[+3 Science] for each adjacent [Spice]",
-]
 },
 //Gold
 {
@@ -135,20 +113,20 @@
 	"uniques": [
 		      "Great Improvement",
 					"Irremovable"
-					"Cannot be built on [Sand Sea] tiles",
+					"Cannot be built on [Coast] tiles",
 					"Tile provides yield without assigned population",
 					"[+2 Gold] for each adjacent [Bones]",
 				  "[+2 Food] for each adjacent [Spice]"]
 },
 {
 	"name": "Caravansary (Impr)",
-	"terrainsCanBeBuiltOn": ["Desert"],
+	"terrainsCanBeBuiltOn": ["Ocean"],
 	"gold": 3,
 	"techRequired": "Trade Routes",
 	"uniques": [
 		      "Great Improvement",
 					"Irremovable"
-					"Cannot be built on [Sand Sea] tiles",
+                    "Cannot be built on [Coast] tiles",
 					"Tile provides yield without assigned population",
 					"[+2 Gold] for each adjacent [Bones]",
 				  "[+3 Food] for each adjacent [Water]"]
@@ -175,7 +153,7 @@
 "Irremovable",
 "Provides [1] [Manpower]",
 "Pillaging this improvement yields approximately [+20 Gold]",
-"[+2 Gold] for each adjacent [Spice]",
+"[+1 Gold] for each adjacent [Spice]",
 ]
 },
 {
@@ -200,8 +178,8 @@
 "Great Improvement",
 "Irremovable",
 "Pillaging this improvement yields approximately [+20 Gold]",
-"[+3 Production] for each adjacent [Mountain]",
-"[+3 Gold] for each adjacent [Spice]"
+"[+1 Production] for each adjacent [Mountain]",
+"[+1 Gold] for each adjacent [Spice]"
 ]
 },
 {
@@ -249,20 +227,20 @@
 		"Provides [1] [Command Point]",
 		"Can be built just outside your borders",
     "Constructing it will take over the tiles around it and assign them to your closest city",
-		"Tile provides yield without assigned population",
-		"[+1 Production] for each adjacent [Rebel Camp]"]
+		"Tile provides yield without assigned population"]
 },
-//Wonders
-{
-	"name": "Hydro Plant (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"culture": 2,
-	"techRequired": "Exploration",
-	"uniques": [
-		"Great Improvement",
-		"Irremovable",
-		"[+1 Culture] for each adjacent [Mountain]"]
-},
+    {
+		"name": "Treasury",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"gold": 5,
+		"uniques": [
+            "Great Improvement",
+            "Irremovable",
+            "Provides [2] [Shares]",
+            "Tile provides yield without assigned population",
+            "[+1 Gold] for each adjacent [Treasury]"
+            "Pillaging this improvement yields approximately [+100 Gold]"]
+	},
 // Others
 {
 		"name": "Cancel improvement order",

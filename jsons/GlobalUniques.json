@@ -1,10 +1,9 @@
 {
     "name": "Global uniques",
     "uniques": [
-       "Enables embarkation for land units",
+        "Enables embarkation for land units",
         "Cannot build [Settler] units <when below [0] [Spice]>",
         "[-10 Happiness] <when below [0] [Spice]>",
-        "May buy [Wonders] buildings for [10] [Science] [in capital]",
         "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
@@ -12,5 +11,17 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
         "[-1] Sight <for [Embarked] units>"
+        "May buy [Bribe Dissenters] buildings with [Gold] for [2] times their normal Production cost",
+        //Shares
+        "May buy [Block of Shares I] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares II] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares III] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares IV] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares V] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares VI] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares VII] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares VIII] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares IX] buildings with [Gold] for [2] times their normal Production cost",
+        "May buy [Block of Shares X] buildings with [Gold] for [2] times their normal Production cost",
       ]
 }

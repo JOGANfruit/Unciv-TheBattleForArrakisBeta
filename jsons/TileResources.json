@@ -4,24 +4,15 @@
     "name": "Spice",
 		"resourceType": "Strategic",
 		"revealedBy": "The Spice Must Flow",
-		"terrainsCanBeFoundOn": ["Sand Sea"],
-    "food" : 1,
+		"terrainsCanBeFoundOn": ["Coast"],
+    "gold" : 1,
 		"improvement": "Extraction Site",
 		"improvementStats": {"production": 1},
 		"uniques": [
-          "Stockpiled",
           "Guaranteed with Strategic Balance resource option"],
 		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
     "minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
   },
-  {
-		"name": "Command Point",
-    "revealedBy": "Martial Arts",
-		"resourceType": "Strategic",
-		"gold": 1,
-    "uniques": [
-      "Cannot be traded"]
-	},
   {
 		"name": "Power",
     "revealedBy": "Wind Power",
@@ -39,14 +30,11 @@
       "Stockpiled"
     ]
 	},
-  {
+ {
 		"name": "Purified Spice",
     "revealedBy": "The Spice Must Flow",
 		"resourceType": "Strategic",
 		"gold": 1
-    "uniques": [
-      "Stockpiled"
-    ]
 	},
   {
 		"name": "Ammunition",
@@ -54,7 +42,6 @@
 		"resourceType": "Strategic",
 		"gold": 1
     "uniques": [
-      "Stockpiled"
     ]
 	},
   {
@@ -63,24 +50,23 @@
 		"resourceType": "Strategic",
 		"gold": 1
     "uniques": [
-      "Stockpiled"
     ]
+  },
+//////////////////////////////////////////////////////////////////////////
+    {
+		"name": "Command Point",
+    "revealedBy": "Martial Arts",
+		"resourceType": "Strategic",
+		"gold": 1,
+    "uniques": [
+      "Cannot be traded"]
 	},
-  //Bonus
-  {
-    "name": "Water",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Snow"],
-		"food": 2,
-		"improvement": "Water Tank",
-		"improvementStats": {"gold": 2},
-  },
-  {
-    "name": "Bones",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Deep Desert"],
-		"gold": 2,
-		"improvement": "Bone Carver",
-		"improvementStats": {"gold": 2},
-  },
+    {
+		"name": "Shares",
+    "revealedBy": "The Spice Must Flow",
+		"resourceType": "Strategic",
+		"gold": 1,
+    "uniques": [
+      "Cannot be traded"]
+	},
 ]

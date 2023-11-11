@@ -1,111 +1,72 @@
 [
-//Light Infantry
-  {
-		"name": "Shock I",
-		"uniques": ["[+11]% Strength <when attacking>"],
-		"unitTypes": ["Infantry"],
+    {
+		"name": "Recruit",
+		"uniques": ["[+5]% Strength"],
+		"unitTypes": ["Infantry", "Ranged"],
 	},
 	{
-		"name": "Shock II",
-		"prerequisites": ["Shock I"],
-		"uniques": ["[+11]% Strength <when attacking>"],
-		"unitTypes": ["Infantry"],
+		"name": "Fighter",
+		"prerequisites": ["Recruit"],
+		"uniques": ["[+5]% Strength"],
+		"unitTypes": ["Infantry", "Ranged"],
 	},
 	{
-		"name": "Shock III",
-		"prerequisites": ["Shock II"],
-		"uniques": ["[+11]% Strength <when attacking>"],
-		"unitTypes": ["Infantry"],
+		"name": "Skilful",
+		"prerequisites": ["Fighter"],
+		"uniques": ["[+5]% Strength"],
+		"unitTypes": ["Infantry", "Ranged"],
 	},
-  {
-		"name": "Charge I",
-		"uniques": ["[+11]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Infantry"],
+    {
+		"name": "Expert",
+        "prerequisites": ["Skilful"],
+		"uniques": ["[+5]% Strength"],
+		"unitTypes": ["Infantry", "Ranged"],
 	},
-  {
-		"name": "Charge II",
-		"prerequisites": ["Charge I"],
-		"uniques": ["[+11]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Infantry"],
+    {
+		"name": "Veteran",
+		"prerequisites": ["Expert"],
+		"uniques": ["[+5]% Strength", 
+                    "[1] additional attacks per turn"],
+		"unitTypes": ["Infantry", "Ranged"],
 	},
-  {
-		"name": "Charge III",
-		"prerequisites": ["Charge II"],
-		"uniques": ["[+11]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Infantry"],
+  //Unit Specific
+    {
+		"name": "Maneuver",
+		"uniques": ["May withdraw before melee ([25]%)"],
 	},
-  //Heavy Troopers
-  {
-		"name": "Cover I",
-		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Infantry"],
+    {
+		"name": "Shield",
+		"uniques": ["[+50]% Strength <vs [Ranged] units> <when defending>"],
 	},
-	{
-		"name": "Cover II",
-		"prerequisites": ["Cover I"],
-		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Infantry"],
+     {   "name": "Laser",
+        "uniques": [
+        "[+15]% Strength <vs cities> <when attacking>",
+        "[+25]% Strength <vs [Mechanized Infantry] units>",
+        "[+25]% Strength <vs [Armored] units>",
+        "[+50]% Strength <vs [Turret] units>"]
+    },
+    {
+		"name": "Drill",
+		"uniques": ["Damage is ignored when determining unit Strength"],
 	},
-  {
-		"name": "Cover III",
-		"prerequisites": ["Cover II"],
-		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Infantry"],
+    {
+		"name": "Survivalism",
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>"]
 	},
-  {
-		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+11]% Strength <when defending>"],
-		"unitTypes": ["Infantry"],
+    {
+		"name": "Ghost",
+		"uniques": ["Invisible to non-adjacent units"]
 	},
-	{
-		"name": "Survivalism II",
-		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+11]% Strength <when defending>"],
-		"unitTypes": ["Infantry"],
+    {
+		"name": "Raider",
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
 	},
-	{
-		"name": "Survivalism III",
-		"prerequisites": ["Survivalism II"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+11]% Strength <when defending>"],
-		"unitTypes": ["Infantry"],
-	},
-//Ranged Infantry
-  {
-		"name": "Besiege I",
-		"uniques": ["[+11]% Strength <vs cities>"],
-		"unitTypes": ["Ranged"],
-	},
-  {
-  	"name": "Besiege II",
-  	"prerequisites": ["Besiege I"],
-  	"uniques": ["[+11]% Strength <vs cities>"],
-  	"unitTypes": ["Ranged"],
-  },
-  {
-    "name": "Besiege III",
-    "prerequisites": ["Besiege II"],
-    "uniques": ["[+11]% Strength <vs cities>"],
-    "unitTypes": ["Ranged"],
-  },
-  {
-		"name": "Anti-Armor I",
-		"uniques": ["[+11]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Ranged"],
-	},
-	{
-		"name": "Anti-Armor II",
-		"prerequisites": ["Anti-Armor I"],
-		"uniques": ["[+11]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Ranged"],
-	},
-  {
-		"name": "Anti-Armor III",
-		"prerequisites": ["Anti-Armor II"],
-		"uniques": ["[+11]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Ranged"],
+    {
+		"name": "Autocannon",
+		"uniques": ["[2] additional attacks per turn",]
 	},
   //////////////////////////////////////////////////////////////////////////////
-  {
+    {
 		"name": "Sand Rider",
 		"uniques": ["May Paradrop up to [20] tiles from inside friendly territory"]
 	},

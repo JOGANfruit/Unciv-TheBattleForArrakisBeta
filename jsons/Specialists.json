@@ -2,25 +2,25 @@
 	{
 		"name":"Agent (Enemy Faction)",
 		"production":2,
-		"greatPersonPoints": {"Defector Commander":3},
+		"greatPersonPoints": {"Commander":3},
 		"color": [255,0,0]
 	},
 	{
 		"name":"Agent (Trade Guild)",
 		"gold":3,
-		"greatPersonPoints": {"Great Merchant":3},
+		"greatPersonPoints": {"Shareholder":3},
 		"color": [255,215,0]
 	},
 	{
 		"name":"Agent (Spacing Guild)",
 		"culture":2,
-		"greatPersonPoints": {"Great Artist":3},
+		"greatPersonPoints": {"Agent (Spacing Guild)":3},
 		"color": [160,32,240]
 	},
 	{
 		"name":"Agent (Landsraad)",
 		"science":3,
-		"greatPersonPoints": {"Great Engineer":3},
+		"greatPersonPoints": {"Agent (Landsraad)":3},
 		"color": [0,0,255]
 	}
 ]

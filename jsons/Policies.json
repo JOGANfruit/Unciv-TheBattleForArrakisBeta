@@ -188,8 +188,7 @@
               {
                   "name": "Call to Arms",
                   "uniques": [
-                      "Provides [2] [Command Point]",
-                      "Provides [100] [Manpower]",
+                      "Provides [5] [Command Point]",
                       "[Gold] cost of purchasing [Infantry] units [-20]%",
                   ],
                   "requires": ["Ground Command"],

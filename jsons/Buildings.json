@@ -6,7 +6,7 @@
    "science": 3,
    "gold": 3,
    "culture": 1,
-   "specialistSlots": {"Agent (Landsraad)": 2},
+   "food": 10,
    "cityStrength": 20,
    "cityHealth": 50,
    "cost": 1,
@@ -22,38 +22,12 @@
   "food": 2,
   "maintenance": 1,
   "uniques": [
-      "Instantly consumes [20] [Spice]",
       "Only available <after adopting [Separator]>",
       "Creates a [Spice Silos (Impr)] improvement on a specific tile",
       "[50]% Food is carried over after population increases [in this city]",
       "Unsellable",
       "Never destroyed when city is captured"],
-  "requiredTech": "Spice Refinery"
-},
-{
-  "name": "Arsenal",
-  "hurryCostModifier": 25,
-  "requiredResource": "Purified Spice",
-  "maintenance": 1,
-  "uniques": [
-      "Can only be built [in capital]",
-      "Creates a [Arsenal (Impr)] improvement on a specific tile",
-      "Unsellable",
-      "Never destroyed when city is captured"],
-  "requiredTech": "Advanced Chemistry"
-},
-{
-  "name": "House of IX",
-  "hurryCostModifier": 25,
-  "requiredResource": "Purified Spice",
-  "maintenance": 1,
-  "uniques": [
-      "Can only be built [in capital]",
-      "Creates a [House of IX (Impr)] improvement on a specific tile",
-      "Unsellable",
-      "Never destroyed when city is captured",
-    ],
-  "requiredTech": "Nanotechnology"
+  "requiredTech": "Spice Extraction"
 },
 //Gold
 {
@@ -73,6 +47,9 @@
   "uniques": [
       "Creates a [Caravansary (Impr)] improvement on a specific tile",
       "Unsellable",
+      "[+1 Production] from [Water resource] tiles [in this city]",
+      "Connects trade routes over water",
+      "Must be next to [Coast]",
       "Never destroyed when city is captured"],
   "requiredTech": "Trade Routes"
 },
@@ -146,7 +123,7 @@
 },
 {
   "name": "Repair Facility",
-  "hurryCostModifier": 25,
+  "hurryCostModifier": 50,
   "requiredResource": "Power",
   "maintenance": 1,
   "uniques": [
@@ -158,48 +135,178 @@
 },
 //Culture
 {
-"name": "Outpost",
-"cost": 27,
-"requiredResource": "Power",
-"maintenance": 1,
-"requiredTech": "Exploration"
-"uniques": [
+  "name": "Outpost",
+  "cost": 27,
+  "requiredResource": "Power",
+  "maintenance": 1,
+  "requiredTech": "Exploration",
+  "uniques": [
+    "Limited to [1] per Civilization",
     "Creates a [Outpost (Impr)] improvement on a specific tile",
     "Reveals the entire map",
     "Unsellable",
-    "Never destroyed when city is captured",
-],
+    "Never destroyed when city is captured"],
 },
 //////////////////////////////////////////////////////////////////////////////////
-    {
-		"name": "Granary",
-		"food": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-    "requiredTech": "The Spice Must Flow",
-   	},
-    {
-  		"name": "Courthouse",
-  		"maintenance": 4,
-  		"hurryCostModifier": 50,
-  		"uniques": [
+{
+  "name": "Block of Shares I",
+  "gold": 2,
+  "cost": 250,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+    
+  "requiredTech": "Trade",
+},
+{
+  "name": "Block of Shares II",
+  "gold": 2,
+  "cost": 500,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares I", 
+  "requiredTech": "Trade",
+},
+{
+  "name": "Block of Shares III",
+  "gold": 2,
+  "cost": 1000,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares II",  
+  "requiredTech": "Trade Routes",
+},
+{
+  "name": "Block of Shares IV",
+  "gold": 2,
+  "cost": 1500,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares III",    
+  "requiredTech": "Trade Routes",
+},
+{
+  "name": "Block of Shares V",
+  "gold": 2,
+  "cost": 2000,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares IV",    
+  "requiredTech": "Galactic Trade",
+},
+{
+  "name": "Block of Shares VI",
+  "gold": 2,
+  "cost": 2500,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares V",    
+  "requiredTech": "Galactic Trade",
+},
+{
+  "name": "Block of Shares VII",
+  "gold": 2,
+  "cost": 3000,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares VI",    
+  "requiredTech": "Guilds",
+},
+{
+  "name": "Block of Shares VIII",
+  "gold": 2,
+  "cost": 3500,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares VII",    
+  "requiredTech": "Guilds",
+},
+{
+  "name": "Block of Shares IX",
+  "gold": 2,
+  "cost": 4000,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares VIII",    
+  "requiredTech": "Trade Routes",
+},
+{
+  "name": "Block of Shares X",
+  "gold": 2,
+  "cost": 5000,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Provides [5] [Shares]",
+      "Limited to [1] per Civilization",
+      "Cost increases by [250] per owned city",
+      "Can only be built [in capital]"],
+  "requiredBuilding": "Block of Shares IX",    
+  "requiredTech": "Coming Soon",
+},
+{
+  "name": "Controlling Shares",
+  "gold": 2,
+  "replacementTextForUniques": "Provides 5 Trade Guild shares",
+  "uniques": [
+      "Unbuildable",
+      "Consumes [50] [Shares]",
+      "Limited to [1] per Civilization",
+      "Can only be built [in capital]"],    
+  "requiredTech": "Coming Soon",
+},
+//Другое
+{
+  "name": "Courthouse",
+  "cost": 100,
+  "uniques": [
         "Remove extra unhappiness from annexed cities",
-  			"Can only be built [in annexed cities]"],
-  		"requiredTech": "Military Science"
-  	},
+  		"Can only be built [in annexed cities]"],
+    "requiredTech": "Diplomatic Relations",
+},
   //Wonders
-  {
-		"name": "Hydro Plant",
-		"science": 1,
-    "cost": 27,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": [
-          "Can only be built [in capital]",
-          "Can be purchased with [Science] [in capital]",
-          "Only available <after adopting [Energy Markets]>",
-          "Creates a [Hydro Plant (Impr)] improvement on a specific tile",
-        ],
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
-	},
 ]

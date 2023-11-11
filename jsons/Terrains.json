@@ -31,11 +31,19 @@
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
     },
     {
-		"name": "Sand Sea",
+		"name": "Ocean",
 		"type": "Water",
     "movementCost": 2,
     "RGB": [179, 129, 59],
 	 },
+    {
+		"name": "Coast",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [70, 138, 216], //Darker87, 139, 199  Lighter59, 137, 227
+		"uniques": ["[+2] to Fertility for Map Generation",
+            "Considered [Desirable] when determining start locations <on water maps>"]
+	},
  //Hills
     {
       "name": "Mountain",
@@ -53,7 +61,6 @@
     {
     "name": "Hill",
     "type": "TerrainFeature",
-    "production": 1,
     "movementCost": 1,
     "overrideStats": true,
     "defenceBonus": 0.25,
@@ -86,9 +93,9 @@
    {
 		"name": "Oasis",
 		"type": "NaturalWonder",
-		"food": 6,
-    "culture": 2,
+		"food": 5,
 		"occursOn": ["Desert"],
+        "turnsInto": "Mountain"
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -97,8 +104,20 @@
 		"name": "Volcano",
 		"type": "NaturalWonder",
 		"production": 5,
-		"culture": 1,
 		"occursOn": ["Hill"],
+		"uniques": [
+      "Units ending their turn on this terrain take [100] damage",
+    ],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+    {
+		"name": "Wreck",
+		"type": "NaturalWonder",
+		"culture": 5,
+		"occursOn": ["Coast"],
 		"uniques": [
       "Units ending their turn on this terrain take [100] damage",
     ],

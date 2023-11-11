@@ -8,14 +8,12 @@
   		"cost": 200,
   		"requiredTech": "Martial Arts",
   		"uniques": [
-        "Consumes [1] [Command Point]",
+        "Consumes [2] [Command Point]",
         "Costs [10] [Manpower]",
-        "[+100]% Strength <vs [Ranged] units>",
-        "May withdraw before melee ([25]%)",
-        "Can move after attacking",
         "Can transform to [Carryall (Light Infantry)] <if [Airfield] is constructed>",
         "Never appears as a Barbarian unit"],
-  		"attackSound": "metalhit",
+        "promotions": ["Maneuver"],
+  		"attackSound": "sword",
       "civilopediaText": [
 			{
 				"extraImage": "TileSets/HexaRealm/Units/Light Infantry",
@@ -30,40 +28,20 @@
 		]
     },
     {
-      "name": "Fremen Mercenaries",
-      "unitType": "Infantry",
-      "uniqueTo": "House Atreides",
-      "replaces": "Light Infantry",
-      "movement": 3,
-      "strength": 25,
-  		"cost": 200,
-  		"requiredTech": "Martial Arts",
-  		"uniques": [
-        "Consumes [1] [Command Point]",
-        "Costs [7] [Manpower]"
-        "Can move after attacking",
-        "[+150]% Strength <vs [Ranged] units>",
-        "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-        "May withdraw before melee ([25]%)",
-        "Can transform to [Carryall (Fremen Mercenaries)] <if [Airfield] is constructed>",
-        "Never appears as a Barbarian unit"],
-  		"attackSound": "metalhit"
-    },
-    {
       "name": "Heavy Troopers",
       "unitType": "Infantry",
       "movement": 2,
-      "strength": 50,
+      "strength": 25,
   		"cost": 250,
   		"requiredTech": "Military Science",
   		"uniques": [
         "Consumes [2] [Command Point]",
         "Costs [15] [Manpower]",
-        "[+50]% Strength <when defending>",
         "Can transform to [Carryall (Heavy Troopers)] <if [Airfield] is constructed>",
         "Only available <if [Barracks] is constructed>",
         "Never appears as a Barbarian unit"],
-  		"attackSound": "metalhit"
+        "promotions": ["Shield"],
+  		"attackSound": "sword"
     },
     {
       "name": "Sardaukars",
@@ -71,18 +49,17 @@
       "uniqueTo": "House Corrino",
       "replaces": "Heavy Troopers",
       "movement": 2,
-      "strength": 50,
+      "strength": 25,
   		"cost": 300,
   	  "requiredTech": "Military Science",
   		"uniques": [
         "Consumes [3] [Command Point]",
         "Costs [20] [Manpower]",
-        "[+50]% Strength <when defending>",
-        "Damage is ignored when determining unit Strength",
         "Can transform to [Carryall (Sardaukars)] <if [Airfield] is constructed>",
         "Only available <if [Barracks] is constructed>",
         "Never appears as a Barbarian unit"],
-  		"attackSound": "metalhit"
+        "promotions": ["Shield", "Drill"],
+  		"attackSound": "Sarda"
     },
     {
       "name": "Kris-Swordsmen",
@@ -90,18 +67,18 @@
       "uniqueTo": "Fremen",
       "replaces": "Heavy Troopers",
       "movement": 3,
-      "strength": 50,
+      "strength": 25,
   		"cost": 250,
   	  "requiredTech": "Military Science",
   		"uniques": [
         "Consumes [2] [Command Point]",
         "Costs [10] [Manpower]",
-        "[+25]% Strength <when fighting in [Desert] tiles>",
-        "May withdraw before melee ([25]%)",
+        "Can transform to [Shai-Hulud]",
         "Can transform to [Carryall (Kris-Swordsmen)] <if [Airfield] is constructed>",
         "Only available <if [Barracks] is constructed>",
         "Never appears as a Barbarian unit"],
-  		"attackSound": "metalhit"
+        "promotions": ["Survivalism", "Maneuver"],
+  		"attackSound": "Arrakis"
     },
     {
       "name": "Saboteur",
@@ -109,49 +86,46 @@
       "uniqueTo": "House Ordos",
       "replaces": "Heavy Troopers",
       "movement": 3,
-      "strength": 50,
+      "strength": 25,
   		"cost": 300,
   	  "requiredTech": "Military Science",
   		"uniques": [
-        "Consumes [2] [Command Point]",
+        "Consumes [3] [Command Point]",
         "Costs [15] [Manpower]",
         "[+100]% to Flank Attack bonuses",
-        "Invisible to non-adjacent units",
         "May enter foreign tiles without open borders",
-        "Ignores Zone of Control",
         "Unable to capture cities",
         "Can transform to [Carryall (Saboteur)] <if [Airfield] is constructed>",
         "Only available <if [Barracks] is constructed>",
         "Never appears as a Barbarian unit"],
-  		"attackSound": "metalhit"
+        "promotions": ["Ghost"],
+  		"attackSound": "Sab"
     },
     //Ranged
     {
       "name": "Lasguns",
       "unitType": "Ranged",
       "movement": 2,
-      "strength": 50,
-      "rangedStrength": 50,
+      "strength": 15,
+      "rangedStrength": 25,
       "range": 2,
       "cost": 250,
       "requiredTech": "Lasers",
       "uniques": [
         "Consumes [3] [Command Point]",
         "Costs [20] [Manpower]",
-        "[+100]% Strength <vs cities> <when attacking>",
-        "[+100]% Strength <vs [Turret] units>",
-        "[+50]% Strength <vs [Mechanized Infantry] units>",
         "Can transform to [Carryall (Lasguns)] <if [Airfield] is constructed>",
         "Only available <if [Barracks] is constructed>",
         "Never appears as a Barbarian unit"],
-      "attackSound": "tankshot"
+        "promotions": ["Laser"],
+      "attackSound": "Lasgun"
     },
     {
       "name": "Mercenaries",
       "unitType": "Ranged",
       "movement": 2,
-      "strength": 50,
-      "rangedStrength": 50,
+      "strength": 15,
+      "rangedStrength": 25,
       "range": 2,
       "cost": 250,
       "requiredTech": "Lasers",
@@ -161,7 +135,8 @@
         "Only available <after adopting [Economic Lobbying]>",
         "Only available <if [Starport] is constructed>",
         "Never appears as a Barbarian unit"],
-      "attackSound": "tankshot"
+        "promotions": ["Laser"],
+      "attackSound": "Lasgun"
     },
   //Turret
   {
@@ -169,90 +144,55 @@
     "unitType": "Turret",
     "movement": 0,
     "strength": 200,
-    "rangedStrength": 100,
+    "rangedStrength": 25,
     "range": 2,
     "requiredTech": "Lasers",
     "uniques": [
-      "Unbuildable",
-      "Cannot be purchased",
-      "Consumes [1] [Power]",
-      "Cannot move",
-      "No defensive terrain bonus",
-      "Never appears as a Barbarian unit"],
-    "attackSound": "tankshot"
-  },
-  {
-    "name": "Wall",
-    "unitType": "Turret",
-    "movement": 0,
-    "strength": 200,
-    "requiredTech": "Martial Arts",
-    "uniques": [
+      "Consumes [5] [Command Point]",
       "Unbuildable",
       "Cannot be purchased",
       "Cannot move",
-      "Cannot attack",
       "No defensive terrain bonus",
-      "<after adopting [Defence Systems]>",
       "Never appears as a Barbarian unit"],
-    "attackSound": "tankshot"
-  },
-  {
-    "name": "Wall-Lateral",
-    "unitType": "Turret",
-    "movement": 0,
-    "strength": 200,
-    "requiredTech": "Martial Arts",
-    "uniques": [
-      "Unbuildable",
-      "Cannot be purchased",
-      "Cannot move",
-      "Cannot attack",
-      "No defensive terrain bonus",
-      "<after adopting [Defence Systems]>",
-      "Never appears as a Barbarian unit"],
-    "attackSound": "tankshot"
+    "attackSound": "Lasgun"
   },
   //Mechanized Infantry
     {
       "name": "Trike",
       "unitType": "Mechanized Infantry",
       "movement": 5,
-      "strength": 75,
+      "strength": 50,
   		"cost": 300,
   		"requiredTech": "Mobile Tactics",
   		"uniques": [
         "Consumes [4] [Command Point]",
-        "Costs [15] [Purified Spice]",
-        "[+100]% Strength <vs [Siege] units>",
-        "[+33]% Strength <vs [Wounded] units>",
         "Can move after attacking",
         "No defensive terrain bonus",
         "Can transform to [Carryall (Trike)] <if [Airfield] is constructed>",
         "Only available <if [Light Factory] is constructed>",
         "Never appears as a Barbarian unit"],
+        "promotions": ["Raider"],
   		"attackSound": "tankshot"
     },
     {
       "name": "Quad",
       "unitType": "Mechanized Infantry",
       "movement": 4,
-      "strength": 75,
-      "rangedStrength": 25,
+      "strength": 50,
+      "rangedStrength": 5,
       "range": 3,
   		"cost": 350,
       "requiredTech": "Mobile Tactics",
   		"uniques": [
-        "Consumes [4] [Command Point]",
-        "Costs [20] [Purified Spice]",
+        "Consumes [5] [Command Point]",
         "[100]% Strength <vs [Ornithopter] units>",
-        "Can only attack [Land] units",
-        "[2] additional attacks per turn",
+        "[50]% chance to intercept air attacks"
         "No defensive terrain bonus",
         "Can transform to [Carryall (Quad)] <if [Airfield] is constructed>",
         "Only available <if [Light Factory] is constructed>",
         "Never appears as a Barbarian unit"],
-  		"attackSound": "tankshot"
+        "promotions": ["Autocannon"],
+  		"attackSound": "autocannon"
     },
     {
       "name": "Combat Tank",
@@ -263,7 +203,6 @@
   		"requiredTech": "Composite Materials",
   		"uniques": [
         "Consumes [5] [Command Point]",
-        "Costs [30] [Ammunition]",
         "[+100]% Strength <vs [Ranged] units> <when defending>",
         "[100]% Strength <when defending>",
         "[+33]% Strength <vs [Land] units>",
@@ -284,7 +223,6 @@
   		"requiredTech": "Composite Materials",
   		"uniques": [
         "Consumes [5] [Command Point]",
-        "Costs [30] [Ammunition]",
         "[+1000]% Strength <vs cities> <when attacking>",
         "[+100]% Strength <vs [Turret] units>",
         "Ranged attacks may be performed over obstacles",
@@ -302,10 +240,10 @@
   		"movement": 7,
   		"strength": 75,
   		"cost": 450,
-  		"requiredTech": "Guilds",
+  		"requiredTech": "Nanotechnology",
   		"uniques": [
         "Consumes [5] [Command Point]",
-        "Costs [30] [Fuel]",
+        "Consumes [1] [Fuel]",
         "Can see invisible [Sand Worm] units",
         "[+100]% Strength <vs [Armored] units>",
         "No defensive terrain bonus",
@@ -313,8 +251,7 @@
   			"All tiles cost 1 movement",
         "Ignores Zone of Control",
         "Unable to capture cities",
-        "Never appears as a Barbarian unit",
-        "Only available <if [Airfield] is constructed>"],
+        "Never appears as a Barbarian unit"],
   		"attackSound": "machinegun"
     },
     {
@@ -324,13 +261,13 @@
       "replaces": "Combat Tank",
       "movement": 2,
       "strength": 100,
-      "rangedStrength": 50,
+      "rangedStrength": 25,
   		"range": 1,
   		"cost": 600,
   		"requiredTech": "Composite Materials",
   		"uniques": [
         "Consumes [5] [Command Point]",
-        "Costs [30] [Ammunition]",
+        "Consumes [1] [Ammunition]",
         "[1] additional attacks per turn",
         "Can move after attacking",
         "Can transform to [Carryall (Devastator)] <if [Airfield] is constructed>",
@@ -338,15 +275,67 @@
         "Never appears as a Barbarian unit",],
   		"attackSound": "tankshot"
     },
-    //Barbarian Sand Worm
+    //Aircraft
+    {
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 25,
+		"range": 7,
+		"interceptRange": 7,
+		"cost": 425,
+		"requiredTech": "Guilds",
+		"uniques": [
+        "Consumes [5] [Command Point]",
+        "Consumes [1] [Fuel]",
+        "Only available <if [Airfield] is constructed>",
+        "Never appears as a Barbarian unit",],
+		"attackSound": "jetgun",
+	},
+    {
+		"name": "Hawk",
+		"unitType": "Fighter",
+        "uniqueTo": "House Atreides",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 25,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "Guilds",
+        "uniques": [
+        "Consumes [5] [Command Point]",
+        "Consumes [1] [Fuel]",
+        "Only available <if [Airfield] is constructed>",
+        "Never appears as a Barbarian unit",],
+		"attackSound": "jetgun"
+	},
+    //Sand Worm
     {
 		"name": "Sand Worm",
 		"unitType": "Sand Worm",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 100,
+		"strength": 1000,
+		"cost": 10,
+		"uniques": [
+      "Unable to capture cities",
+    ],
+		"attackSound": "nonmetalhit"
+	  },
+     {
+		"name": "Shai-Hulud",
+		"unitType": "Sand Worm",
+		"uniqueTo": "Fremen",
+		"movement": 7,
+		"strength": 1000,
 		"cost": 1000,
 		"uniques": [
+      "Unbuildable",
+      "Consumes [15] [Command Point]",
+      "Can transform to [Kris-Swordsmen]",
+      "Cannot be purchased",
       "Unable to capture cities",
     ],
 		"attackSound": "nonmetalhit"
@@ -355,132 +344,122 @@
     {
       "name": "Carryall (Light Infantry)",
   		"unitType": "Carrier",
+        "strength": 25,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Light Infantry]"],
-  		"hurryCostModifier": 20
-    },
-    {
-      "name": "Carryall (Fremen Mercenaries)",
-  		"unitType": "Carrier",
-  		"movement": 10,
-  		"uniques": [
-      "Unbuildable",
-      "Uncapturable",
-      "Can transform to [Fremen Mercenaries]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Heavy Troopers)",
   		"unitType": "Carrier",
+        "strength": 25,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Heavy Troopers]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Sardaukars)",
   		"unitType": "Carrier",
+        "strength": 25,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Sardaukars]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Kris-Swordsmen)",
   		"unitType": "Carrier",
+        "strength": 25,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Kris-Swordsmen]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Saboteur)",
   		"unitType": "Carrier",
+        "strength": 25,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Saboteur]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Lasguns)",
   		"unitType": "Carrier",
+        "strength": 15,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Lasguns]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Mercenaries)",
       "unitType": "Carrier",
+      "strength": 15,
       "movement": 10,
       "uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Lasguns]"],
-      "hurryCostModifier": 20
     },
     {
       "name": "Carryall (Trike)",
   		"unitType": "Carrier",
   		"movement": 10,
+        "strength": 50,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Trike]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Quad)",
   		"unitType": "Carrier",
   		"movement": 10,
+        "strength": 50,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Quad]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Combat Tank)",
   		"unitType": "Carrier",
+        "strength": 75,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Combat Tank]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Rocket Tank)",
   		"unitType": "Carrier",
+        "strength": 50,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Rocket Tank]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Devastator)",
   		"unitType": "Carrier",
+        "strength": 100,
   		"movement": 10,
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Devastator]"],
-  		"hurryCostModifier": 20
     },
     {
       "name": "Carryall (Worker)",
@@ -490,7 +469,6 @@
       "Unbuildable",
       "Uncapturable",
       "Can transform to [Lasguns]"],
-      "hurryCostModifier": 20
     },
     //Civilian units
     {
@@ -534,14 +512,27 @@
   	},
     //Great Person
     {
-		"name": "Defector Commander",
+		"name": "Commander",
 		"unitType": "Civilian",
     "movement": 2
 		"uniques": [
-      "Can instantly construct a [Rebel Camp] improvement <by consuming this unit> <if it hasn't used other actions yet>",
       "Empire enters a [8]-turn Golden Age <by consuming this unit>",
       "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Unbuildable", "Uncapturable"],
+      "Can instantly construct a [Rebel Camp] improvement <by consuming this unit>",
+      "Great Person - [War]"
+      "Unbuildable",
+      "Uncapturable"],
+	},
+    {
+		"name": "Shareholder",
+		"unitType": "Civilian",
+    "movement": 2
+		"uniques": [
+      "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+      "Can instantly construct a [Treasury] improvement <by consuming this unit>",
+      "Great Person - [Gold]"
+      "Unbuildable",
+      "Uncapturable"],
 	},
     //Can build [Refinery (Impr)] improvements on tiles
     //Can build [Wind Trap (Impr)] improvements on tiles

@@ -26,12 +26,13 @@
 
  		"outerColor": [255, 255, 255],
  		"innerColor": [165,0,0],
- 		"uniqueName": "Imperial Tax",
+ 		"uniqueName": "",
  		"uniques": [
       "You pay tribute to the House Corrino",
       "Gifts of Gold to City-States generate [50]% more Influence",
-      "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns.",
-      "City-State territory always counts as friendly territory"
+      "City-State territory always counts as friendly territory",
+      "Influence of all other civilizations with all city-states degrades [15]% faster",
+      "May not annex cities"     
     ],
  		"cities": ["Arrakeen","Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
 			"Ani", "Dyrrachium", "Edessa", "Chalcedon", "Naissus", "Bari", "Iconium", "Prilep", "Samosata", "Kars", "Nicopolis", "Theodosiopolis",
@@ -61,7 +62,7 @@
 
  		"outerColor": [4,0,88],
  		"innerColor": [213,107,0],
- 		"uniqueName": "Imperial Tax",
+ 		"uniqueName": "",
  		"uniques": [
     "You pay tribute to the House Corrino",
     "Provides [5] [Command Point]",
@@ -97,14 +98,14 @@
 
  		"outerColor": [0, 0, 0],
  		"innerColor": [240,202,0],
- 		"uniqueName": "Imperial Tribute",
+ 		"uniqueName": "",
  		"uniques": [
       "Great houses pay tribute to you",
-      "Provides [5] [Spice]",
-      "May not annex cities",
-      "Starts with [Trade]",
+      "Provides [5] [Shares]",
+      "Double quantity of [Spice] produced",
       "[+5 Gold] from every [Extraction Site]",
-      "Unhappiness from number of Cities doubled"
+      "Cities are razed [3] times as fast"
+      "[+100]% unhappiness from the number of cities"
     ],
  		"cities": ["Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
@@ -134,7 +135,7 @@
 
  		"outerColor": [0,99,0],
  		"innerColor": [240,202,0],
- 		"uniqueName": "Imperial Tax",
+ 		"uniqueName": "",
  		"uniques": [
       "You pay tribute to the House Corrino",
       "Starts with [Exploration]",
@@ -169,12 +170,16 @@
 
  		"outerColor": [190,66,0],
  		"innerColor": [252,255,149],
- 		"uniqueName": "Imperial Tax",
+ 		"uniqueName": "",
+        "uniqueText": "Infantry units can ride a sandworm. No movement cost to pillage for Infantry units. 15% production when constructing infantry units in capital. Combat aviation is not available.",
  		"uniques": [
       "You pay tribute to the House Corrino",
       "All newly-trained [Infantry] units [in all cities] receive the [Sand Rider] promotion",
+      "All newly-trained [Ranged] units [in all cities] receive the [Sand Rider] promotion",
       "[15]% Production when constructing [Infantry] units [in capital]",
+      "[15]% Production when constructing [Ranged] units [in capital]",
       "No movement cost to pillage <for [Infantry] units>",
+      "No movement cost to pillage <for [Ranged] units>",
       "Cannot build [Ornithopter] units"
     ],
  		"cities": ["Tabr","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
@@ -218,14 +223,14 @@
   //City States
   {
     "name": "Tuek's Sietch",//May not annex cities
-		"adjective": ["Fremen"],//Automation is a primary action
+		"adjective": ["Fremen"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [190,66,0],
-		"innerColor": [252,255,149],
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
 		"cities": ["Tuek's Sietch"],
   },
   {
@@ -236,8 +241,8 @@
 		"declaringWar": "Let's have a nice little War, shall we?",
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
 		"defeated": "The serbian guerilla will never stop haunting you!",
-		"outerColor": [190,66,0],
-		"innerColor": [252,255,149],
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
 		"cities": ["Gara Kulon"]
   },
   {
@@ -248,8 +253,8 @@
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [190,66,0],
-		"innerColor": [252,255,149],
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
 		"cities": ["Red Chasm Sietch"]
   },
   {

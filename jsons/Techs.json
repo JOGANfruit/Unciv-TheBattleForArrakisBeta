@@ -4,6 +4,7 @@
     "era": "Ancient era",
     "techCost": 25,
     "buildingCost": 25,
+    "wonderCost": 185,
     "techs": [
       {
         "name": "Martial Arts",
@@ -27,6 +28,7 @@
     "era": "Ancient era",
     "techCost": 50,
     "buildingCost": 50,
+    "wonderCost": 185,
     "techs": [
       {
         "name": "Spice Extraction",
@@ -57,7 +59,7 @@
 				"name": "Exploration",
 				"row": 3,
 				"prerequisites": ["Spice Extraction"],
-        "uniques": ["Enables conversion of city production to [Science]"],
+        "uniques": ["Enables conversion of city production to [Culture]"],
       },
 		]
 	},
@@ -79,9 +81,14 @@
 				"prerequisites": ["Trade"],
       },
       {
-				"name": "Spice Refinery",
+				"name": "Diplomatic Relations",
 				"row": 3,
 				"prerequisites": ["Exploration"],
+                "uniques": [
+                    "Enables Open Borders agreements",
+                    "Enables Defensive Pacts",
+                    "[+1 Happiness] [in all cities]"
+                ],
       },
 		]
 	},
@@ -105,7 +112,7 @@
       {
 				"name": "Advanced Chemistry",
 				"row": 3,
-				"prerequisites": ["Spice Refinery"],
+				"prerequisites": ["Diplomatic Relations"],
       },
 		]
 	},
@@ -125,9 +132,6 @@
 				"name": "Guilds",
 				"row": 2,
 				"prerequisites": ["Galactic Trade"],
-        "uniques": [
-          "Enables conversion of city production to [Culture]",
-        ],
       },
       {
 				"name": "Nanotechnology",

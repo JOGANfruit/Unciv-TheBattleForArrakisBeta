@@ -252,7 +252,12 @@
 	"Plains+Forest+Spices": ["Plains","ForestPUp","Spices", "ForestPLow"],
 	"Plains+Jungle+Spices": ["Plains","JunglePUp","Spices", "JunglePLow"],
 	"Plains+Hill+Forest+Spices": ["Plains+Hill","ForestPHUp","Spices","ForestPHLow"],
-
+    //
+    "Desert+Hill+Wind Trap (Impr)": ["Desert+Hill","Wind Trap (Impr)R"],
+    "Desert+River-Bottom+Hill+Wind Trap (Impr)": ["Desert+Hill","Wind Trap (Impr)R"],
+    "Desert+River-BottomLeft+Hill+Wind Trap (Impr)": ["Desert+Hill","Wind Trap (Impr)R"],
+    "Desert+River-BottomRight+Hill+Wind Trap (Impr)": ["Desert+Hill","Wind Trap (Impr)R"],
+        
 	//Farm
 	"Grassland+Farm": ["Grassland","FarmG","HutFarm"],
 	"Grassland+Deer+Farm": ["Grassland","FarmG","Deer"],
@@ -303,7 +308,7 @@
 	"Grassland+Hill+Truffles+Farm": ["Grassland+Hill","FarmGH","Truffles"],
 	"Grassland+Hill+Sheep+Farm": ["Grassland+Hill","FarmGH","Sheep"],
 	"Grassland+Hill+Horses+Farm": ["Grassland+Hill","FarmGH","Horses"],
-
+	
 	"Plains+Farm": ["Plains","FarmP","HutFarm"],
 	"Plains+Deer+Farm": ["Plains","FarmP","Deer"],
 	"Plains+Stone+Farm": ["Plains","FarmP","Stone"],
@@ -328,7 +333,7 @@
 	"Plains+Incense+Farm": ["Plains","FarmP","Incense"],
 	"Plains+Ivory+Farm": ["Plains","FarmP","Ivory"],
 	"Plains+Horses+Farm": ["Plains","FarmP","Horses"],
-
+	
 	"Plains+Hill+Farm": ["Plains+Hill","FarmPH","HutFarm"],
 	"Plains+Hill+Deer+Farm": ["Plains+Hill","FarmPH","Deer"],
 	"Plains+Hill+Stone+Farm": ["Plains+Hill","FarmPH","Stone"],
@@ -351,7 +356,7 @@
 	"Plains+Hill+Truffles+Farm": ["Plains+Hill","FarmPH","Truffles"],
 	"Plains+Hill+Sheep+Farm": ["Plains+Hill","FarmPH","Sheep"],
 	"Plains+Hill+Horses+Farm": ["Plains+Hill","FarmPH","Horses"],
-
+	
 	"Desert+Farm": ["Desert","FarmD","HutFarm"],
 	"Desert+Stone+Farm": ["Desert","FarmD","Stone"],
 	"Desert+Iron+Farm": ["Desert","Iron","FarmD"],
@@ -375,17 +380,17 @@
 	"Desert+Hill+Coal+Farm": ["Desert+Hill","Coal","FarmDH"],
 	"Desert+Hill+Gems+Farm": ["Desert+Hill","Gems","FarmDH"],
 	"Desert+Hill+Gold Ore+Farm": ["Desert+Hill","Gold Ore","FarmDH"],
-
-	"Desert+Flood plains+Farm": ["Flood plains","FarmP","HutFarm"],
-	"Desert+Flood plains+Cotton+Farm": ["Flood plains","FarmP","Cotton"],
-	"Desert+Flood plains+Incense+Farm": ["Flood plains","FarmP","Incense"],
-	"Desert+Flood plains+Sugar+Farm": ["Flood plains","FarmP","Sugar"],
-	"Desert+Flood plains+Citrus+Farm": ["Flood plains","FarmP","Citrus"],
-
+	
+	"Desert+Flood plains+Farm": ["Desert","Flood plains","FarmP","HutFarm"],
+	"Desert+Flood plains+Cotton+Farm": ["Desert","Flood plains","FarmP","Cotton"],
+	"Desert+Flood plains+Incense+Farm": ["Desert","Flood plains","FarmP","Incense"],
+	"Desert+Flood plains+Sugar+Farm": ["Desert","Flood plains","FarmP","Sugar"],
+	"Desert+Flood plains+Citrus+Farm": ["Desert","Flood plains","FarmP","Citrus"],
+	
 	"Plains+Wheat+Farm": ["Plains","Farm+Wheat","HutFarm"],
 	"Desert+Wheat+Farm": ["Desert","Farm+Wheat","HutFarm"],
-	"Desert+Flood plains+Wheat+Farm": ["Flood plains","Farm+Wheat","HutFarm"],
-
+	"Desert+Flood plains+Wheat+Farm": ["Desert","Flood plains","Farm+Wheat","HutFarm"],
+	
 	"Tundra+Farm": ["Tundra","FarmT","HutFarmT"],
 	"Tundra+Deer+Farm": ["Tundra","FarmT","Deer"],
 	"Tundra+Stone+Farm": ["Tundra","FarmT","Stone"],

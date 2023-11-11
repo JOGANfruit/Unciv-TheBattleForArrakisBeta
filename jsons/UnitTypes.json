@@ -25,6 +25,7 @@
     "name": "Infantry",
     "movementType": "Land"
     "uniques": [
+      "Can move after attacking",
       "Can pass through impassable tiles",
       "May travel on Water tiles without embarking"]
   },
@@ -64,6 +65,11 @@
       "Can pass through impassable tiles",
       "All tiles cost 1 movement",
       "May travel on Water tiles without embarking"]
+  },
+  {
+        "name": "Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
   },
   {
     "name": "Superweapon",
