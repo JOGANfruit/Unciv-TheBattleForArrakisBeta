@@ -28,7 +28,6 @@
  		"innerColor": [165,0,0],
  		"uniqueName": "",
  		"uniques": [
-      "You pay tribute to the House Corrino",
       "Gifts of Gold to City-States generate [50]% more Influence",
       "City-State territory always counts as friendly territory",
       "Influence of all other civilizations with all city-states degrades [15]% faster",
@@ -64,7 +63,6 @@
  		"innerColor": [213,107,0],
  		"uniqueName": "",
  		"uniques": [
-    "You pay tribute to the House Corrino",
     "Provides [5] [Command Point]",
     "+30% Strength when fighting City-State units and cities",
     "New [Military] units start with [15] Experience [in all cities]",
@@ -80,7 +78,7 @@
  		"leaderName": "Shaddam IV",
  		"adjective": ["Corrino"],
  		"startBias": ["Hill"],
- 		"preferredVictoryType":"Domination",
+ 		"preferredVictoryType":"Economic",
     "style": "Corrino",
 
  		"startIntroPart1": "",
@@ -100,7 +98,6 @@
  		"innerColor": [240,202,0],
  		"uniqueName": "",
  		"uniques": [
-      "Great houses pay tribute to you",
       "Provides [5] [Shares]",
       "Double quantity of [Spice] produced",
       "[+5 Gold] from every [Extraction Site]",
@@ -117,7 +114,7 @@
  		"leaderName": "Executrix",
  		"adjective": ["Ordos"],
  		"startBias": ["Snow"],
- 		"preferredVictoryType":"Domination",
+ 		"preferredVictoryType":"Economic",
     "style": "Ordos",
 
  		"startIntroPart1": "",
@@ -137,7 +134,6 @@
  		"innerColor": [240,202,0],
  		"uniqueName": "",
  		"uniques": [
-      "You pay tribute to the House Corrino",
       "Starts with [Exploration]",
       "[+2 Gold] from every specialist [in all cities]",
       "No movement cost to pillage <for [All] units>",
@@ -173,14 +169,14 @@
  		"uniqueName": "",
         "uniqueText": "Infantry units can ride a sandworm. No movement cost to pillage for Infantry units. 15% production when constructing infantry units in capital. Combat aviation is not available.",
  		"uniques": [
-      "You pay tribute to the House Corrino",
       "All newly-trained [Infantry] units [in all cities] receive the [Sand Rider] promotion",
       "All newly-trained [Ranged] units [in all cities] receive the [Sand Rider] promotion",
       "[15]% Production when constructing [Infantry] units [in capital]",
       "[15]% Production when constructing [Ranged] units [in capital]",
       "No movement cost to pillage <for [Infantry] units>",
       "No movement cost to pillage <for [Ranged] units>",
-      "Cannot build [Ornithopter] units"
+      "Cannot build [Ornithopter] units",
+      "Cannot build [Fighter] units",
     ],
  		"cities": ["Tabr","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
@@ -215,7 +211,6 @@
  		//"innerColor": [252,255,149],
  		//"uniqueName": "Imperial Tax",
  		//"uniques": [
-      //"You pay tribute to the House Corrino",
       //"Cannot build [Settler] units"
     //],
  		//"cities": ["Tuek's Sietch"]

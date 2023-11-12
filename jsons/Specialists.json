@@ -14,13 +14,7 @@
 	{
 		"name":"Agent (Spacing Guild)",
 		"culture":2,
-		"greatPersonPoints": {"Agent (Spacing Guild)":3},
+		"greatPersonPoints": {"Guild Navigator":3},
 		"color": [160,32,240]
 	},
-	{
-		"name":"Agent (Landsraad)",
-		"science":3,
-		"greatPersonPoints": {"Agent (Landsraad)":3},
-		"color": [0,0,255]
-	}
 ]

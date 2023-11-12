@@ -49,7 +49,7 @@
                 "name": "Energy Markets",
                 "uniques": [
                   "Provides [2] [Power]",
-                  "[+2 Gold] from every [Wind Trap (Impr)]",
+                  "[+2 Gold] from every [Wind Trap]",
                   "Unlocks the Spice Silos building",
                   "Quantity of strategic resources produced by the empire +[5]%"
                 ],
@@ -146,7 +146,6 @@
                   "name": "Defence Systems",
                   "uniques": [
                       "[+25]% Strength for cities <when defending>",
-                      "Unlocks walls",
                       "Unlocks Rocket Turret",
                   ],
                   "requires": ["Survival Training"],

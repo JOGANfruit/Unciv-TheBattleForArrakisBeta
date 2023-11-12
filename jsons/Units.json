@@ -10,6 +10,7 @@
   		"uniques": [
         "Consumes [2] [Command Point]",
         "Costs [10] [Manpower]",
+        "No defensive terrain bonus",
         "Can transform to [Carryall (Light Infantry)] <if [Airfield] is constructed>",
         "Never appears as a Barbarian unit"],
         "promotions": ["Maneuver"],
@@ -228,7 +229,7 @@
         "Ranged attacks may be performed over obstacles",
         "Must set up to ranged attack",
         "No defensive terrain bonus",
-  			"[-1] Sight",
+  		"[-1] Sight",
         "Can transform to [Carryall (Rocket Tank)] <if [Airfield] is constructed>",
         "Only available <if [Heavy Factory] is constructed>",
         "Never appears as a Barbarian unit"],
@@ -248,7 +249,7 @@
         "[+100]% Strength <vs [Armored] units>",
         "No defensive terrain bonus",
         "Can move after attacking",
-  			"All tiles cost 1 movement",
+  		"All tiles cost 1 movement",
         "Ignores Zone of Control",
         "Unable to capture cities",
         "Never appears as a Barbarian unit"],
@@ -349,6 +350,7 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
       "Can transform to [Light Infantry]"],
     },
     {
@@ -473,22 +475,21 @@
     //Civilian units
     {
       "name": "Settler",
-  		"unitType": "Civilian",
-  		"movement": 2,
-  		"cost": 106,
-  		"uniques": [
+      "unitType": "Civilian",
+      "movement": 2,
+      "cost": 106,
+      "uniques": [
       "Costs [20] [Manpower]",
       "Uncapturable",
       "Founds a new city",
       "Excess Food converted to Production when under construction",
   		"Requires at least [2] population"],
-  		"hurryCostModifier": 20
     },
     {
-  		"name": "Harvester",
-  		"unitType": "Civilian",
-  		"movement": 4,
-  		"cost": 150,
+      "name": "Harvester",
+      "unitType": "Civilian",
+      "movement": 4,
+      "cost": 150,
       "requiredTech": "Spice Extraction",
   		"uniques": [
         "Costs [5] [Manpower]",
@@ -496,26 +497,24 @@
         "May create improvements on water resources"]
   	},
     {
-  		"name": "Worker",
-  		"unitType": "Civilian",
-  		"movement": 4,
-  		"cost": 70,
+      "name": "Worker",
+      "unitType": "Civilian",
+      "movement": 4,
+      "cost": 70,
       "requiredTech": "Wind Power",
   		"uniques": [
         "Costs [5] [Manpower]",
         "Uncapturable",
-        "Can transform to [Wall]",
-        "Can transform to [Wall-Lateral]",
         "Can transform to [Turret] <after discovering [Lasers]>",
         "Can transform to [Carryall (Worker)] <if [Airfield] is constructed>",
         "Can build [Land] improvements on tiles"]
   	},
     //Great Person
     {
-		"name": "Commander",
-		"unitType": "Civilian",
-    "movement": 2
-		"uniques": [
+      "name": "Commander",
+      "unitType": "Civilian",
+      "movement": 2,
+      "uniques": [
       "Empire enters a [8]-turn Golden Age <by consuming this unit>",
       "[+15]% Strength bonus for [Military] units within [2] tiles",
       "Can instantly construct a [Rebel Camp] improvement <by consuming this unit>",
@@ -524,13 +523,23 @@
       "Uncapturable"],
 	},
     {
-		"name": "Shareholder",
-		"unitType": "Civilian",
-    "movement": 2
-		"uniques": [
+      "name": "Shareholder",
+      "unitType": "Civilian",
+      "movement": 2
+      "uniques": [
       "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
       "Can instantly construct a [Treasury] improvement <by consuming this unit>",
       "Great Person - [Gold]"
+      "Unbuildable",
+      "Uncapturable"],
+	},
+    {
+      "name": "Guild Navigator",
+      "unitType": "Civilian",
+      "movement": 2,
+      "uniques": [
+      "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+      "Great Person - [Culture]",
       "Unbuildable",
       "Uncapturable"],
 	},
