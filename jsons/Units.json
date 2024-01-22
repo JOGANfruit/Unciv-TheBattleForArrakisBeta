@@ -351,6 +351,7 @@
       "Unbuildable",
       "Uncapturable",
       "Cannot attack",
+      "Consumes [2] [Command Point]",
       "Can transform to [Light Infantry]"],
     },
     {
@@ -361,6 +362,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [2] [Command Point]",
       "Can transform to [Heavy Troopers]"],
     },
     {
@@ -371,6 +374,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [3] [Command Point]",
       "Can transform to [Sardaukars]"],
     },
     {
@@ -381,6 +386,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [2] [Command Point]",
       "Can transform to [Kris-Swordsmen]"],
     },
     {
@@ -391,6 +398,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [3] [Command Point]",
       "Can transform to [Saboteur]"],
     },
     {
@@ -401,6 +410,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [3] [Command Point]",
       "Can transform to [Lasguns]"],
     },
     {
@@ -411,6 +422,7 @@
       "uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Consumes [1] [Command Point]",
       "Can transform to [Lasguns]"],
     },
     {
@@ -421,6 +433,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [4] [Command Point]",
       "Can transform to [Trike]"],
     },
     {
@@ -431,6 +445,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [5] [Command Point]",
       "Can transform to [Quad]"],
     },
     {
@@ -441,6 +457,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [5] [Command Point]",
       "Can transform to [Combat Tank]"],
     },
     {
@@ -451,6 +469,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [5] [Command Point]",
       "Can transform to [Rocket Tank]"],
     },
     {
@@ -461,6 +481,8 @@
   		"uniques": [
       "Unbuildable",
       "Uncapturable",
+      "Cannot attack",
+      "Consumes [5] [Command Point]",
       "Can transform to [Devastator]"],
     },
     {
@@ -515,7 +537,7 @@
       "unitType": "Civilian",
       "movement": 2,
       "uniques": [
-      "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+      "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "[+15]% Strength bonus for [Military] units within [2] tiles",
       "Can instantly construct a [Rebel Camp] improvement <by consuming this unit>",
       "Great Person - [War]"
@@ -527,6 +549,7 @@
       "unitType": "Civilian",
       "movement": 2
       "uniques": [
+      "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
       "Can instantly construct a [Treasury] improvement <by consuming this unit>",
       "Great Person - [Gold]"
@@ -538,7 +561,8 @@
       "unitType": "Civilian",
       "movement": 2,
       "uniques": [
-      "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+      "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+      "Can instantly construct a [Secret Supply] improvement <by consuming this unit>",
       "Great Person - [Culture]",
       "Unbuildable",
       "Uncapturable"],

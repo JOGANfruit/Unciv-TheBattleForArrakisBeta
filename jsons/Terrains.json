@@ -40,7 +40,7 @@
 		"name": "Coast",
 		"type": "Water",
 		"movementCost": 1,
-		"RGB": [70, 138, 216], //Darker87, 139, 199  Lighter59, 137, 227
+		"RGB": [180, 93, 38], //Darker87, 139, 199  Lighter59, 137, 227
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>"]
 	},
@@ -88,7 +88,15 @@
           "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
           "Always Fertility [-1] for Map Generation",
           "Considered [Undesirable] when determining start locations"]
-	  },
+    },
+  //River
+    {
+        "name": "River",
+        "type": "TerrainFeature",
+        "gold": 1,
+        "movementCost": 0,  
+        "uniques": ["Doesn't generate naturally", "Excluded from map editor"],
+    },
   //Natural Wonder
    {
 		"name": "Oasis",

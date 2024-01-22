@@ -25,11 +25,12 @@
 		 "gold": 2,
 		 "techRequired": "Spice Extraction",
 		 "uniques": [
+         "Great Improvement",
 		 "Can be built outside your borders",
 		 "Constructing it will take over the tiles around it and assign them to your closest city",
 		 "Tile provides yield without assigned population",
 		 "Can only be built to improve a resource",
-		 "Great Improvement",
+         "Provides [1] [Spice]<after adopting [Crew Training Program]>",
 		 "Pillaging this improvement yields approximately [+20 Gold]"]
 },
 ////////////////////////////////////////////////////////////////////////////////
@@ -57,7 +58,17 @@
 					"Provides [1] [Purified Spice]",
 ]
 },
-    {
+{
+	"name": "Spice Silos (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"food": 3,
+    "turnsToBuild": 7,
+	"techRequired": "Spice Extraction",
+	"uniques": [
+"Consumes [1] [Purified Spice]",
+"Tile provides yield without assigned population"]
+},    
+{
 	"name": "Arsenal",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"production": 3,
@@ -69,12 +80,13 @@
 "Irremovable"
 "Consumes [1] [Purified Spice]",
 "Provides [1] [Ammunition]",
+"Tile provides yield without assigned population",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Production] for each adjacent [Spice]",
 ]
 },
 {
-	"name": "House of IX",
+	"name": "Fuel Facility",
 	"terrainsCanBeBuiltOn": ["Hill"],
 	"production": 2,
     "culture": 3,
@@ -85,24 +97,12 @@
 "Irremovable"
 "Consumes [1] [Purified Spice]",
 "Provides [1] [Fuel]",
+"Tile provides yield without assigned population"
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Science] for each adjacent [Spice]",
 ]
 },
 //Great Improvements
-//Spice
-{
-	"name": "Spice Silos (Impr)",
-	"terrainsCanBeBuiltOn": ["Hill"],
-	"food": 2,
-	"techRequired": "Spice Extraction",
-	"uniques": [
-		      "Great Improvement",
-					"Irremovable"
-					"Tile provides yield without assigned population",
-					"[+2 Food] for each adjacent [Spice]",
-				  "[+2 Food] for each adjacent [Water]"]
-},
 //Gold
 {
 	"name": "Bazaar (Impr)",
@@ -217,29 +217,39 @@
 },
 //Great person
 {
-	"name": "Rebel Camp",
-	"terrainsCanBeBuiltOn": ["Desert"],
-	"production": 1,
-	"uniques": [
-		"Great Improvement",
+"name": "Rebel Camp",
+"terrainsCanBeBuiltOn": ["Desert"],
+"production": 1,
+"uniques": [
+        "Great Improvement",
 		"Irremovable",
 		"Provides [1] [Command Point]",
 		"Can be built just outside your borders",
-    "Constructing it will take over the tiles around it and assign them to your closest city",
+        "Constructing it will take over the tiles around it and assign them to your closest city",
 		"Tile provides yield without assigned population"]
 },
-    {
-		"name": "Treasury",
-		"terrainsCanBeBuiltOn": ["Desert"],
-		"gold": 5,
-		"uniques": [
-            "Great Improvement",
-            "Irremovable",
-            "Provides [2] [Shares]",
-            "Tile provides yield without assigned population",
-            "[+1 Gold] for each adjacent [Treasury]"
-            "Pillaging this improvement yields approximately [+100 Gold]"]
-	},
+{
+"name": "Treasury",
+"terrainsCanBeBuiltOn": ["Desert", "Hill"],
+"gold": 5,
+"uniques": [
+        "Great Improvement",
+        "Irremovable",
+        "Provides [2] [Shares]",
+        "Tile provides yield without assigned population",
+        "Pillaging this improvement yields approximately [+100 Gold]"]
+},
+{
+"name": "Secret Supply",
+"terrainsCanBeBuiltOn": ["Desert", "Hill"],
+"culture": 5,
+"uniques": [
+        "Great Improvement",
+        "Irremovable",
+        "Provides [1] [Fuel]",
+        "Tile provides yield without assigned population",
+        "Pillaging this improvement yields approximately [+100 Gold]"]
+},
 // Others
 {
 		"name": "Cancel improvement order",

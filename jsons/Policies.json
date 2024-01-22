@@ -28,7 +28,6 @@
                 "name": "Advanced Engineering",
                 "uniques": [
                     "[-50]% maintenance cost for buildings [in capital]",
-                    "Quantity of strategic resources produced by the empire +[5]%",
                 ],
                 "requires": ["Solid Materials"],
                 "row": 2,
@@ -51,7 +50,6 @@
                   "Provides [2] [Power]",
                   "[+2 Gold] from every [Wind Trap]",
                   "Unlocks the Spice Silos building",
-                  "Quantity of strategic resources produced by the empire +[5]%"
                 ],
                 "requires": ["Advanced Engineering"],
                 "row": 3,
@@ -60,9 +58,9 @@
             {
                 "name": "Separator",
                 "uniques": [
-                    "[+1 Production] from every [Extraction Site]",
+                    "[+2 Happiness] from every [Extraction Site]",
+                    "[+2 Gold] from every [Extraction Site]",
                     "Unlocks the Spice Silos building",
-                    "Quantity of strategic resources produced by the empire +[5]%"
                 ],
                 "requires": ["Modular Parts"],
                 "row": 3,
@@ -73,7 +71,6 @@
                 "uniques": [
                     "[+2 Gold] from every specialist [in capital]",
                     "May buy [Mercenaries] units with [Gold] for [3] times their normal Production cost",
-                    "Quantity of strategic resources produced by the empire +[5]%",
                 ],
                 "requires": ["Modular Parts"],
                 "row": 3,
@@ -82,10 +79,9 @@
             {
                 "name": "Crew Training Program",
                 "uniques": [
-                   "[+1 Happiness] from every [Extraction Site]",
-                   "[-25]% Unhappiness from [Population] [in all non-occupied cities]",
-                   "Quantity of strategic resources produced by the empire +[5]%",
-                   "Empire enters golden age"
+                   "[+3 Happiness] from every [Extraction Site]",
+                   "[-25]% Unhappiness from [Population] [in capital]",
+                   "Extraction sites provide additional spice",
                 ],
                 "requires": ["Separator"],
                 "row": 4,
@@ -94,8 +90,8 @@
             {
                 "name": "Guild Support",
                 "uniques": [
-                    "[+1 Happiness] [in all cities connected to capital]",
-                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+                    "Provides [5] [Shares]",
+                    "Provides [1] [Fuel]",
                 ],
                 "requires": ["Economic Lobbying"],
                 "row": 4,

@@ -15,20 +15,6 @@
      "Provides [1] [Manpower]",
      "Provides [20] [Command Point]"]
 },
-//Spice
-{
-  "name": "Spice Silos",
-  "hurryCostModifier": 25,
-  "food": 2,
-  "maintenance": 1,
-  "uniques": [
-      "Only available <after adopting [Separator]>",
-      "Creates a [Spice Silos (Impr)] improvement on a specific tile",
-      "[50]% Food is carried over after population increases [in this city]",
-      "Unsellable",
-      "Never destroyed when city is captured"],
-  "requiredTech": "Spice Extraction"
-},
 //Gold
 {
   "name": "Bazaar",
@@ -55,7 +41,7 @@
 },
 {
   "name": "Starport",
-  "gold": 8
+  "gold": 5
   "cost": 125,
   "specialistSlots": {"Agent (Trade Guild)": 2},
   "percentStatBonus": {"Gold": 10},
@@ -152,6 +138,7 @@
   "name": "Block of Shares I",
   "gold": 2,
   "cost": 250,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -166,6 +153,7 @@
   "name": "Block of Shares II",
   "gold": 2,
   "cost": 500,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -180,6 +168,7 @@
   "name": "Block of Shares III",
   "gold": 2,
   "cost": 1000,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -194,6 +183,7 @@
   "name": "Block of Shares IV",
   "gold": 2,
   "cost": 1500,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -208,6 +198,7 @@
   "name": "Block of Shares V",
   "gold": 2,
   "cost": 2000,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -222,6 +213,7 @@
   "name": "Block of Shares VI",
   "gold": 2,
   "cost": 2500,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -236,6 +228,7 @@
   "name": "Block of Shares VII",
   "gold": 2,
   "cost": 3000,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -250,6 +243,7 @@
   "name": "Block of Shares VIII",
   "gold": 2,
   "cost": 3500,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -264,6 +258,7 @@
   "name": "Block of Shares IX",
   "gold": 2,
   "cost": 4000,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
@@ -272,12 +267,13 @@
       "Cost increases by [250] per owned city",
       "Can only be built [in capital]"],
   "requiredBuilding": "Block of Shares VIII",    
-  "requiredTech": "Trade Routes",
+  "requiredTech": "Coming Soon",
 },
 {
   "name": "Block of Shares X",
   "gold": 2,
   "cost": 5000,
+  "percentStatBonus": {"gold": 25},
   "replacementTextForUniques": "Provides 5 Trade Guild shares",
   "uniques": [
       "Unbuildable",
